@@ -22,6 +22,10 @@ Overarching Research Question:
   * Ondertrouwregisters Amsterdam City Archives (OTR SAA, https://archief.amsterdam/uitleg/indexen/45-ondertrouwregisters-1565-1811) provide information on the social interaction between people, their (family) relation, and their connection to confession and profession.
     * Ja, ik wil! (http://www.collective-action.info/_PRO_Ja-Ik-Wil_Project)
 
+## Linksets
+* Ja, ik wil! to the Ondertrouwregisters for the bride and groom. Available in the GA Infrastructure.
+* 
+
 ## License
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
