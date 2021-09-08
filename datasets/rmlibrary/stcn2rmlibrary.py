@@ -102,7 +102,7 @@ class BookItem(Book):
     rdf_type = (schema.CreativeWork, schema.Book, schema.IndividualProduct,
                 schema.ArchiveComponent)
 
-    itemLocation = rdfSingle(schema.itemLocation)
+    itemLocation = rdfMultiple(schema.itemLocation)
     holdingArchive = rdfSingle(schema.holdingArchive)
     exampleOfWork = rdfSingle(schema.exampleOfWork)
 
@@ -232,14 +232,14 @@ def getSTCNBooks(ENDPOINT: str = "http://data.bibliotheken.nl/sparql"):
 
 
 def getSTCNItem(
-        itemLocation: str,
+        itemLocations: list,
         holdingArchive: str = "Amsterdam, Rijksmuseum Research Library",
         ENDPOINT: str = "http://data.bibliotheken.nl/sparql"):
     """
     Find the STCN item for a given itemLocation and holdingArchive.
 
     Args:
-        itemLocation (str): The itemLocation of the item to search for.
+        itemLocations (list): The itemLocations of the item to search for.
         holdingArchive (str, optional): The holdingArchive of the item to search for.
         ENDPOINT (str, optional): The SPARQL endpoint to use.
     
@@ -247,32 +247,34 @@ def getSTCNItem(
         List of dicts with with items    
     """
 
-    q = f"""
-    PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-    PREFIX schema: <http://schema.org/>
-
-    SELECT * WHERE {{
-    ?book a schema:IndividualProduct ;
-            schema:itemLocation ?shelfmark ;
-            schema:holdingArchive ?archive .
-    
-    FILTER(?shelfmark = "{itemLocation}")
-    FILTER(CONTAINS(?archive, "{holdingArchive}"))
-    }}
-    """
-
-    headers = {"Accept": "application/sparql-results+json"}
-    params = {"query": q}
-    r = requests.get(ENDPOINT, headers=headers, params=params)
-    data = r.json()
-
     books = []
-    for r in data["results"]["bindings"]:
-        record = dict()
-        for k, v in r.items():
-            record[k] = v["value"]
-        books.append(record)
+    for itemLocation in itemLocations:
+
+        q = f"""
+        PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+        PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+        PREFIX schema: <http://schema.org/>
+
+        SELECT * WHERE {{
+        ?book a schema:IndividualProduct ;
+                schema:itemLocation ?shelfmark ;
+                schema:holdingArchive ?archive .
+        
+        FILTER(?shelfmark = "{itemLocation}")
+        FILTER(CONTAINS(?archive, "{holdingArchive}"))
+        }}
+        """
+
+        headers = {"Accept": "application/sparql-results+json"}
+        params = {"query": q}
+        r = requests.get(ENDPOINT, headers=headers, params=params)
+        data = r.json()
+
+        for r in data["results"]["bindings"]:
+            record = dict()
+            for k, v in r.items():
+                record[k] = v["value"]
+            books.append(record)
 
     return books
 
@@ -305,21 +307,20 @@ def getRMLibraryBook(
     ElementTree.register_namespace("", "http://www.loc.gov/MARC21/slim")
     tree = ElementTree.fromstring(r.content)
 
-    for record in tree.findall(".//marc21slim:record",
-                               namespaces={
-                                   "zs": "http://www.loc.gov/zing/srw/",
-                                   "marc21slim":
-                                   "http://www.loc.gov/MARC21/slim"
-                               }):
+    for el in tree.findall(".//marc21slim:record",
+                           namespaces={
+                               "zs": "http://www.loc.gov/zing/srw/",
+                               "marc21slim": "http://www.loc.gov/MARC21/slim"
+                           }):
 
-        f = io.BytesIO(ElementTree.tostring(record, encoding="utf-8"))
+        f = io.BytesIO(ElementTree.tostring(el, encoding="utf-8"))
         marc_records = pymarc.parse_xml_to_array(f)
 
         for record in marc_records:
 
             uri = record["024"]["a"]
             name = record.title()
-            shelfmark = record["952"]["o"]
+            shelfmarks = [i["o"] for i in record.get_fields("952") if i["o"]]
             ocolc_id = record["035"]["a"].replace('(OCoLC)', '')
 
             comments = []
@@ -336,14 +337,14 @@ def getRMLibraryBook(
             book = BookItem(
                 URIRef(uri),
                 name=[name],
-                itemLocation=shelfmark,
+                itemLocation=shelfmarks,
                 holdingArchive="Amsterdam, Rijksmuseum Research Library",
                 exampleOfWork=stcnManifestation,
                 description=comments)
 
-            stcn_items = getSTCNItem(shelfmark)
-            if len(stcn_items) == 1:
-                book.sameAs = [URIRef(stcn_items[0]['book'])]
+            stcn_items = getSTCNItem(shelfmarks)
+            if len(stcn_items) >= 1:
+                book.sameAs = [URIRef(i['book']) for i in stcn_items]
 
             authors = getPersons(record, field='100', property='author')
             contributors = getPersons(record,
@@ -362,9 +363,21 @@ def getRMLibraryBook(
                 if startDate and startDate.endswith("."):
                     startDate = startDate[:-1]
 
+                organizationName = record["260"]["b"]
+                if organizationName and organizationName.endswith(','):
+                    organizationName = [organizationName[:-1]]
+                elif organizationName:
+                    organizationName = [organizationName]
+                else:
+                    organizationName = []
+
+                location = record["260"]["a"]
+                if location and location.endswith(','):
+                    location = location[:-1]
+
                 pubEvent = PublicationEvent(
                     BNode(uri + '#publication'),
-                    location=record["260"]["a"],
+                    location=location,
                     publishedBy=[
                         Organization(unique(
                             uri,
@@ -373,8 +386,7 @@ def getRMLibraryBook(
                             ns=
                             "https://data.goldenagents.org/datasets/rmlibrary/organization/"
                         ),
-                                     name=[record["260"]["b"]]
-                                     if record["260"]["b"] else [])
+                                     name=organizationName)
                     ],
                     startDate=startDate)
                 book.publication = pubEvent
@@ -399,6 +411,10 @@ def getPersons(record, field, property):
     for fieldEntry in record.get_fields(field):
 
         name = fieldEntry["a"]
+
+        if name and name.endswith(','):
+            name = name[:-1]
+
         roleName = fieldEntry["e"]
 
         if fieldEntry["9"] not in ('0', None):
