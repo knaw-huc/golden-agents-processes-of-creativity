@@ -23,8 +23,7 @@ Overarching Research Question:
     * Ja, ik wil! (http://www.collective-action.info/_PRO_Ja-Ik-Wil_Project)
 
 ## Linksets
-* Ja, ik wil! to the Ondertrouwregisters for the bride and groom. Available in the GA Infrastructure.
-* 
+See: [/linksets](/linksets)
 
 ## License
 
