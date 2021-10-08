@@ -1,0 +1,40 @@
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <http://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX kbdef: <http://data.bibliotheken.nl/def#>
+
+CONSTRUCT {
+  ?manifestation ?prop1 ?obj1 . # level 1
+  ?obj1 ?prop2 ?obj2 . # level 2
+  ?obj2 ?prop3 ?obj3 . # level 3
+} WHERE {
+
+  GRAPH <https://data.goldenagents.org/datasets/ufab7d657a250e3461361c982ce9b38f3816e0c4b/stcn_20200226> {
+    ?manifestation a schema:Book ;
+        kbdef:typographicalCharacteristics ?typographicalCharacteristics ;
+      ?prop1 ?obj1 .
+    
+    FILTER(
+      ?typographicalCharacteristics = "illustrations on title page"^^xsd:string ||
+      ?typographicalCharacteristics = "illustrations within collation"^^xsd:string ||
+      ?typographicalCharacteristics = "engraved title page"^^xsd:string ||
+      ?typographicalCharacteristics = "illustratons outside collation"^^xsd:string
+    )
+
+    # Level 2
+    OPTIONAL {
+      ?obj1 ?prop2 ?obj2 .
+
+      # Level 3
+      OPTIONAL {
+        ?obj2 ?prop3 ?obj3 .
+      }
+    }
+
+    FILTER(?prop1 != skos:Concept && ?prop2 != skos:Concept)
+
+  }
+
+}
