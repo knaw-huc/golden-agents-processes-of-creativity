@@ -1,0 +1,87 @@
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX sc: <http://purl.org/science/owl/sciencecommons/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX sem: <http://semanticweb.cs.vu.nl/2009/11/sem/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <http://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+CONSTRUCT {
+  ?manifestation a schema:Book ;
+    schema:author ?author ;
+    schema:author ?contributor ;  # do we want to simplify this?
+    schema:illustrator ?illustrator ;
+    schema:publication ?publicationEvent .
+
+  ?publicationEvent a schema:PublicationEvent ;
+                      schema:startDate ?date ;
+                      sem:hasEarliestBeginTimestamp ?dateBegin ;
+                      sem:hasLatestEndTimestamp ?dateEnd ;
+                      schema:publishedBy ?printer .
+
+    ?ecarticoAuthor a schema:Person .
+
+    ?printer a schema:Person .
+
+    ?contributor a schema:Person .
+
+  	?illustrator a schema:Person .
+
+} WHERE {
+
+  {
+    SELECT * WHERE {
+
+      GRAPH <https://data.goldenagents.org/datasets/ufab7d657a250e3461361c982ce9b38f3816e0c4b/stcn_20200226> {
+        ?manifestation a schema:Book .
+
+        BIND(IRI(CONCAT(STR(?manifestation), "-pubEvent")) AS ?publicationEvent)
+
+        OPTIONAL {?manifestation schema:author/schema:author ?NTA_author . }
+        OPTIONAL {?manifestation schema:contributor/schema:contributor ?STCN_contributor . }
+
+        OPTIONAL {?manifestation schema:publication/schema:publishedBy ?STCN_printer . }
+        OPTIONAL {?manifestation schema:publication/schema:startDate ?date . }
+        OPTIONAL {?manifestation schema:publication/sem:hasEarliestBeginTimestamp ?dateBegin . } # Typo in original data
+        OPTIONAL {?manifestation schema:publication/sem:hasLatestEndTimestamp ?dateEnd . } # Typo in original data
+
+      }
+
+      GRAPH <https://data.goldenagents.org/datasets/u692bc364e9d7fa97b3510c6c0c8f2bb9a0e5123b/rmlibrary_20210908> {
+        ?item schema:exampleOfWork ?manifestation .
+
+        OPTIONAL {
+          ?item schema:contributor ?contributorRole .
+
+          ?contributorRole schema:contributor ?RML_illustrator ;
+                           schema:roleName ?roleName .
+
+          FILTER(
+            ?roleName = "graveur"^^xsd:string ||
+            ?roleName = "illustrator"^^xsd:string ||
+            ?roleName = "tekenaar"^^xsd:string ||
+            ?roleName = "houtsnijder"^^xsd:string ||
+            ?roleName = "etser"^^xsd:string
+          )
+        }
+      }
+    }
+  }
+
+  {
+    GRAPH <https://data.goldenagents.org/datasets/ufab7d657a250e3461361c982ce9b38f3816e0c4b/ecartico_20200316> {
+
+      OPTIONAL { ?ecAuthor a schema:Person ; schema:sameAs ?NTA_author . }
+      OPTIONAL { ?ecPrinter a schema:Person ; schema:sameAs ?STCN_printer . }
+      OPTIONAL { ?ecContributor a schema:Person ; schema:sameAs ?STCN_contributor . }
+      OPTIONAL { ?ecIllustrator a schema:Person ; schema:sameAs ?RML_illustrator . }
+    }
+  }
+
+    BIND(COALESCE(?ecAuthor, ?NTA_author) AS ?author)
+    BIND(COALESCE(?ecPrinter, ?STCN_printer) AS ?printer)
+    BIND(COALESCE(?ecContributor, ?STCN_contributor) AS ?contributor)
+    BIND(COALESCE(?ecIllustrator, ?RML_illustrator) AS ?illustrator)
+
+}

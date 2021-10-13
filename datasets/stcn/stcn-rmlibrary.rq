@@ -23,7 +23,7 @@ CONSTRUCT {
       }
     }
 
-    FILTER(?prop1 != skos:Concept && ?prop2 != skos:Concept)
+    FILTER(?obj1 != skos:Concept && ?obj2 != skos:Concept)
 
   }
 
