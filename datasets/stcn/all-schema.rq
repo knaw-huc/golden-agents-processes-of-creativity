@@ -20,7 +20,7 @@ CONSTRUCT {
                       sem:hasLatestEndTimestamp ?dateEnd ;
                       schema:publishedBy ?printer .
 
-    ?ecarticoAuthor a schema:Person .
+    ?author a schema:Person .
 
     ?printer a schema:Person .
 
@@ -29,7 +29,6 @@ CONSTRUCT {
   	?illustrator a schema:Person .
 
 } WHERE {
-
   {
     SELECT * WHERE {
 
@@ -76,6 +75,7 @@ CONSTRUCT {
       OPTIONAL { ?ecPrinter a schema:Person ; schema:sameAs ?STCN_printer . }
       OPTIONAL { ?ecContributor a schema:Person ; schema:sameAs ?STCN_contributor . }
       OPTIONAL { ?ecIllustrator a schema:Person ; schema:sameAs ?RML_illustrator . }
+
     }
   }
 
