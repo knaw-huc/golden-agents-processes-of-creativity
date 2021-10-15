@@ -10,7 +10,8 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 CONSTRUCT {
   ?manifestation a schema:Book ;
     schema:author ?author ;
-    schema:contributor ?contributor ;  # do we want to simplify this?
+    schema:contributor ?contributor1 ;
+    schema:contributor ?contributor2 ;
     schema:illustrator ?illustrator ;
     schema:publication ?publicationEvent .
 
@@ -83,14 +84,15 @@ CONSTRUCT {
           }
         }
       }
-   }
-
+    }
+  }
   {
     GRAPH <https://data.goldenagents.org/datasets/u692bc364e9d7fa97b3510c6c0c8f2bb9a0e5123b/ecartico_20211014> {
 
       OPTIONAL { ?ecAuthor a schema:Person ; schema:sameAs ?NTA_author . }
       OPTIONAL { ?ecPrinter a schema:Person ; schema:sameAs ?STCN_printer . }
-      OPTIONAL { ?ecContributor a schema:Person ; schema:sameAs ?STCN_contributor . }
+      OPTIONAL { ?ecContributor1 a schema:Person ; schema:sameAs ?STCN_contributor . }
+      OPTIONAL { ?ecContributor2 a schema:Person ; schema:sameAs ?RML_contributor . }
       OPTIONAL { ?ecIllustrator a schema:Person ; schema:sameAs ?RML_illustrator . }
 
     }
@@ -98,7 +100,8 @@ CONSTRUCT {
 
     BIND(COALESCE(?ecAuthor, ?NTA_author) AS ?author)
     BIND(COALESCE(?ecPrinter, ?STCN_printer) AS ?printer)
-    BIND(COALESCE(?ecContributor, ?STCN_contributor) AS ?contributor)
+    BIND(COALESCE(?ecContributor1, ?STCN_contributor) AS ?contributor1)
+    BIND(COALESCE(?ecContributor2, ?RML_contributor) AS ?contributor2)
     BIND(COALESCE(?ecIllustrator, ?RML_illustrator) AS ?illustrator)
 
 }
