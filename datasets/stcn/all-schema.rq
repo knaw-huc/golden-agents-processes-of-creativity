@@ -1,33 +1,32 @@
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-PREFIX sc: <http://purl.org/science/owl/sciencecommons/>
-PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX sem: <http://semanticweb.cs.vu.nl/2009/11/sem/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <http://schema.org/>
-PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 CONSTRUCT {
   ?manifestation a schema:Book ;
-    schema:author ?author ;
-    schema:contributor ?contributor1 ;
-    schema:contributor ?contributor2 ;
-    schema:illustrator ?illustrator ;
+    schema:author ?NTA_author ;
+    schema:contributor ?STCN_contributor ;
+    schema:contributor ?RML_contributor ;
+    schema:illustrator ?RML_illustrator ;
     schema:publication ?publicationEvent .
 
   ?publicationEvent a schema:PublicationEvent ;
                       schema:startDate ?date ;
                       sem:hasEarliestBeginTimestamp ?dateBegin ;
                       sem:hasLatestEndTimestamp ?dateEnd ;
-                      schema:publishedBy ?printer .
+                      schema:publishedBy ?STCN_printer .
 
-  ?author a schema:Person .
+  ?NTA_author a schema:Person .
 
-  ?printer a schema:Person .
+  ?STCN_printer a schema:Person .
 
-  ?contributor a schema:Person .
+  ?STCN_contributor a schema:Person .
 
-  ?illustrator a schema:Person .
+  ?RML_contributor a schema:Person .
+
+  ?RML_illustrator a schema:Person .
 
 } WHERE {
   {
@@ -49,59 +48,46 @@ CONSTRUCT {
       }
 
       GRAPH <https://data.goldenagents.org/datasets/u692bc364e9d7fa97b3510c6c0c8f2bb9a0e5123b/rmlibrary_20210908> {
-        ?item schema:exampleOfWork ?manifestation .
+        ?item a schema:Book ;
+              schema:exampleOfWork ?manifestation .
 
+        # These are illustrators for sure
         OPTIONAL {
           ?item schema:contributor ?contributorRole1 .
 
-          ?contributorRole1 schema:contributor ?RML_illustrator ;
-                           schema:roleName ?roleName .
+          ?contributorRole1 a schema:Role ;
+                            schema:contributor ?RML_illustrator ;
+                            schema:roleName ?roleName1 .
 
           FILTER(
-            ?roleName = "graveur"^^xsd:string ||
-            ?roleName = "illustrator"^^xsd:string ||
-            ?roleName = "tekenaar"^^xsd:string ||
-            ?roleName = "houtsnijder"^^xsd:string ||
-            ?roleName = "etser"^^xsd:string
+            ?roleName1 = "graveur"^^xsd:string ||
+            ?roleName1 = "illustrator"^^xsd:string ||
+            ?roleName1 = "tekenaar"^^xsd:string ||
+            ?roleName1 = "houtsnijder"^^xsd:string ||
+            ?roleName1 = "etser"^^xsd:string
           )
         }
 
+        # These are just contributors
         OPTIONAL {
           ?item schema:contributor ?contributorRole2 .
 
-          ?contributorRole2 schema:contributor ?RML_contributor .
+          ?contributorRole2 a schema:Role ;
+                            schema:contributor ?RML_contributor .
 
           FILTER NOT EXISTS {
-            ?contributorRole2 schema:roleName ?roleName
+            ?contributorRole2 schema:roleName ?roleName2
           
             FILTER(
-              ?roleName = "graveur"^^xsd:string ||
-              ?roleName = "illustrator"^^xsd:string ||
-              ?roleName = "tekenaar"^^xsd:string ||
-              ?roleName = "houtsnijder"^^xsd:string ||
-              ?roleName = "etser"^^xsd:string
+              ?roleName2 = "graveur"^^xsd:string ||
+              ?roleName2 = "illustrator"^^xsd:string ||
+              ?roleName2 = "tekenaar"^^xsd:string ||
+              ?roleName2 = "houtsnijder"^^xsd:string ||
+              ?roleName2 = "etser"^^xsd:string
             )
           }
         }
       }
     }
   }
-  {
-    GRAPH <https://data.goldenagents.org/datasets/u692bc364e9d7fa97b3510c6c0c8f2bb9a0e5123b/ecartico_20211014> {
-
-      OPTIONAL { ?ecAuthor a schema:Person ; schema:sameAs ?NTA_author . }
-      OPTIONAL { ?ecPrinter a schema:Person ; schema:sameAs ?STCN_printer . }
-      OPTIONAL { ?ecContributor1 a schema:Person ; schema:sameAs ?STCN_contributor . }
-      OPTIONAL { ?ecContributor2 a schema:Person ; schema:sameAs ?RML_contributor . }
-      OPTIONAL { ?ecIllustrator a schema:Person ; schema:sameAs ?RML_illustrator . }
-
-    }
-  }
-
-    BIND(COALESCE(?ecAuthor, ?NTA_author) AS ?author)
-    BIND(COALESCE(?ecPrinter, ?STCN_printer) AS ?printer)
-    BIND(COALESCE(?ecContributor1, ?STCN_contributor) AS ?contributor1)
-    BIND(COALESCE(?ecContributor2, ?RML_contributor) AS ?contributor2)
-    BIND(COALESCE(?ecIllustrator, ?RML_illustrator) AS ?illustrator)
-
 }

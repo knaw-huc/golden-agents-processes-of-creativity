@@ -1,0 +1,15 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <http://schema.org/>
+
+SELECT ?uri ?ecartico WHERE {
+  GRAPH <https://data.goldenagents.org/datasets/u692bc364e9d7fa97b3510c6c0c8f2bb9a0e5123b/ecartico_20211014> {
+    ?ecartico a schema:Person ;
+            schema:sameAs ?uri .
+
+    FILTER(
+      CONTAINS(STR(?uri), "id.rijksmuseum") ||
+      CONTAINS(STR(?uri), "/thes/")
+    )
+  }
+}
