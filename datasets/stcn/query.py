@@ -20,6 +20,8 @@ def query(
     sparql = SPARQLWrapper(endpoint)
     sparql.setQuery(q + f" OFFSET {OFFSET} LIMIT {LIMIT}")
 
+    print(OFFSET)
+
     if sparql.queryType == "SELECT":
         sparql.setReturnFormat(JSON)
 
@@ -68,9 +70,10 @@ if __name__ == "__main__":
     with open(qfile, 'r') as f:
         q = f.read()
 
-    data = query(q, "https://sparql.goldenagents.org/sparql")
+    data = query(q, "http://127.0.0.1:5820/ga/query")
 
     if isinstance(data, pd.DataFrame):
         data.to_csv(target, sep='\t', index=False)
     else:
         data.serialize(target, format="turtle")
+

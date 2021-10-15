@@ -1,0 +1,14 @@
+#+ summary: Use Wikidata as mapping for NTA and Rijksmuseum Library id
+#+ endpoint: https://query.wikidata.org/sparql
+#+ method: GET
+
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+
+SELECT ?rmid ?nta {
+  ?person wdt:P7444 ?rmid_id ;
+          wdt:P1006 ?nta_id .
+  
+  BIND(URI(CONCAT("https://id.rijksmuseum.nl/310", ?rmid_id)) AS ?rmid)
+  BIND(URI(CONCAT("http://data.bibliotheken.nl/id/thes/p", ?nta_id)) AS ?nta)
+  
+  }
