@@ -1,3 +1,7 @@
+#+ summary: Retrieve a mapping of NTA and Rijksmuseum Library URIs to ECARTICO URIs
+#+ endpoint: https://sparql.goldenagents.org/sparql
+#+ method: GET
+
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <http://schema.org/>

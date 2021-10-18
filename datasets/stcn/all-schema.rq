@@ -1,3 +1,7 @@
+#+ summary: Fetch actor information from STCN and RMLibrary books and create a new graph. 
+#+ endpoint: http://localhost:5820/ga/query
+#+ method: GET
+
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX sem: <http://semanticweb.cs.vu.nl/2009/11/sem/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
