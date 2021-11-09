@@ -25,6 +25,9 @@ Overarching Research Question:
 ## Linksets
 See: [/linksets](/linksets)
 
+## Methods
+We will explore the potential of methods like [blockmodelling](https://en.wikipedia.org/wiki/Blockmodeling) and [community detection](https://en.wikipedia.org/wiki/Community_structure). For the applicability of such methods in historical research see: John F. Padgett and Christopher K. Ansell, Robust Action and the Rise of the Medici, 1400-1434, *American Journal of Sociology* 98, no. 6 (1993), 1259-1319. (JSTOR: https://www.jstor.org/stable/2781822).
+
 ## License
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
