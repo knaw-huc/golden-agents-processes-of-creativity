@@ -26,7 +26,9 @@ Overarching Research Question:
 See: [/linksets](/linksets)
 
 ## Methods
-We will explore the potential of methods like [blockmodelling](https://en.wikipedia.org/wiki/Blockmodeling) and [community detection](https://en.wikipedia.org/wiki/Community_structure). For the applicability of such methods in historical research see: John F. Padgett and Christopher K. Ansell, Robust Action and the Rise of the Medici, 1400-1434, *American Journal of Sociology* 98, no. 6 (1993), 1259-1319. (JSTOR: https://www.jstor.org/stable/2781822).
+We will explore the potential of methods like [blockmodelling](https://en.wikipedia.org/wiki/Blockmodeling) and [community detection](https://en.wikipedia.org/wiki/Community_structure). For a recent review of these methods see: Lee, C., Wilkinson, D.J. A review of stochastic block models and extensions for graph clustering, *Appl Netw Sci* 4, no. 122 (2019). https://doi.org/10.1007/s41109-019-0232-2
+
+For the applicability of such methods in historical research see: John F. Padgett and Christopher K. Ansell, Robust Action and the Rise of the Medici, 1400-1434, *American Journal of Sociology* 98, no. 6 (1993), 1259-1319. (JSTOR: https://www.jstor.org/stable/2781822).
 
 ## License
 
