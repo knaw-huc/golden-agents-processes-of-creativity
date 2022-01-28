@@ -35,6 +35,9 @@ SELECT * WHERE {
   GRAPH <https://data.goldenagents.org/datasets/u692bc364e9d7fa97b3510c6c0c8f2bb9a0e5123b/ecartico_20211014> {
     ?person a schema:Person ;
         schema:birthDate ?birthDate .
+        
+    FILTER(!(ISURI(?birthDate)))
+    
     }
   }
   UNION {
