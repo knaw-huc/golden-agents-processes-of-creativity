@@ -97,6 +97,34 @@ SELECT * WHERE {
 
 ```
 
+## Occupational address
+
+```sparql
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <http://schema.org/>
+
+SELECT * WHERE {
+
+  GRAPH <https://data.goldenagents.org/datasets/u692bc364e9d7fa97b3510c6c0c8f2bb9a0e5123b/ecartico_20211014> {
+    ?person a schema:Person ;
+        schema:workLocation ?workLocationRole .
+    
+    ?workLocationRole a schema:Role ;
+        schema:workLocation ?workLocation .
+    
+    ?workLocation a schema:Place ;
+        schema:name ?workLocationName .
+    
+    OPTIONAL { ?workLocationRole schema:startDate ?startDate . }
+    OPTIONAL { ?workLocationRole schema:endDate ?endDate . }
+
+   
+  }
+ 
+}
+```
+
 ## Family relations
 
 ```sparql
