@@ -1,7 +1,20 @@
+"""
+This file changes the URIs of the data that was extracted from the Rijksmuseum
+Library and STCN datasets to an ECARTICO URI that is more canonical. This way, 
+we keep one URI for the same person in all these datasets, without turning on 
+sameAs reasoning. 
+
+If no mapping is found to either ECARTICO (preferred) or the NTA, the resource
+is removed from the data. We do this for URIs on id.rijksmuseum.nl and the 
+self-created data.goldenagents.org/datasets/rmlibrary/person/ URIs. 
+
+This is a method to improve the quality of the data, since the ECARTICO and NTA
+datasets are more reliable than the Rijksmuseum Library data. 
+"""
+
 import pandas as pd
 
-from rdflib import ConjunctiveGraph
-from rdflib.term import URIRef
+from rdflib import ConjunctiveGraph, URIRef, RDF
 
 
 def main(filepath: str, destination: str, mapping_ecartico: str,
@@ -29,8 +42,9 @@ def main(filepath: str, destination: str, mapping_ecartico: str,
             mapping[rmid] = nta
 
     g = ConjunctiveGraph()
-    g.parse(filepath)
+    g.parse(filepath, format='turtle')
 
+    # Replace URIs for canonical ECARTICO URIs
     for uri, ecartico in mapping.items():
 
         uri = URIRef(uri)
@@ -43,6 +57,14 @@ def main(filepath: str, destination: str, mapping_ecartico: str,
         for subject, predicate in g.subject_predicates(object=uri):
             g.remove((subject, predicate, uri))
             g.add((subject, predicate, ecartico))
+
+    # Remove everything that was not mapped to ECARTICO or NTA
+    subjects = g.subjects(predicate=RDF.type)
+    for resource in subjects:
+        if 'id.rijksmuseum.nl' in str(resource) or 'data.goldenagents.org/datasets/rmlibrary/person/' in str(resource):
+            g.remove((resource, None, None))
+            g.remove((None, None, resource))
+
 
     g.serialize(destination, format='turtle')
 
