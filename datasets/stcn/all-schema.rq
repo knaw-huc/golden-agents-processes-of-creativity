@@ -18,8 +18,8 @@ CONSTRUCT {
 
   ?publicationEvent a schema:PublicationEvent ;
                       schema:startDate ?date ;
-                      sem:hasEarliestBeginTimestamp ?dateBegin ;
-                      sem:hasLatestEndTimestamp ?dateEnd ;
+                      sem:hasEarliestBeginTimeStamp ?dateBegin ;
+                      sem:hasLatestEndTimeStamp ?dateEnd ;
                       schema:publishedBy ?STCN_printer .
 
   ?NTA_author a schema:Person .
