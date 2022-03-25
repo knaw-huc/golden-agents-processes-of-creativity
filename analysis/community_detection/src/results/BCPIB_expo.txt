@@ -1,0 +1,1090 @@
+Community 1, total members of the community: 480, Period: (1669, 1775), Number of books: 310
+Top 5 nodes according to degree centrality:
+0 : Bernard Picard, CM: 0.03 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/5980)
+1 : Jan Goeree, CM: 0.028 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/312)
+2 : Hermanus Uytwerf, CM: 0.027 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/38702)
+3 : Romeyn de Hooghe, CM: 0.027 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/3839)
+4 : Jan van Vianen, CM: 0.022 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/7838)
+
+
+Community 2, total members of the community: 445, Period: (1578, 1740), Number of books: 320
+Top 5 nodes according to degree centrality:
+0 : Theodoor Matham, CM: 0.019 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/4892)
+1 : Crispyn de Passe I, CM: 0.014 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/5891)
+2 : Adriaen Pietersz van de Venne, CM: 0.014 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/7653)
+3 : Salomon Savery, CM: 0.011 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/6583)
+4 : Jan Jansz van den Velde I, CM: 0.011 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/7628)
+
+
+Community 3, total members of the community: 300, Period: (1711, 1809), Number of books: 196
+Top 5 nodes according to degree centrality:
+0 : Casper Philips, CM: 0.039 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/36922)
+1 : Simon Fokke, CM: 0.034 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/52372)
+2 : Tanjé, P., CM: 0.033 (URI: https://id.rijksmuseum.nl/310111879)
+3 : Johannes Allart, CM: 0.03 (URI: http://data.bibliotheken.nl/id/thes/p075568276)
+4 : Folkema, J., CM: 0.029 (URI: https://id.rijksmuseum.nl/31036665)
+
+
+Community 4, total members of the community: 277, Period: (1769, 1798), Number of books: 144
+Top 5 nodes according to degree centrality:
+0 : Pieter Gillissen, CM: 0.068 (URI: http://data.bibliotheken.nl/id/thes/p075576406)
+1 : Bohemer, Christiaan, CM: 0.066 (URI: http://data.bibliotheken.nl/id/thes/p12856234X)
+2 : s.n., CM: 0.066 (URI: http://data.bibliotheken.nl/id/thes/p07556596X)
+3 : Palier, Jacobus, CM: 0.066 (URI: http://data.bibliotheken.nl/id/thes/p075576236)
+4 : Vis, Dirk (II), CM: 0.065 (URI: http://data.bibliotheken.nl/id/thes/p075575477)
+
+
+Community 5, total members of the community: 187, Period: (1736, 1759), Number of books: 79
+Top 5 nodes according to degree centrality:
+0 : Lee, Jan van, CM: 0.069 (URI: http://data.bibliotheken.nl/id/thes/p136460704)
+1 : Jan Bosch, CM: 0.064 (URI: http://data.bibliotheken.nl/id/thes/p075576155)
+2 : Joannes van Braam, CM: 0.053 (URI: http://data.bibliotheken.nl/id/thes/p075540266)
+3 : Jacobus Staal, CM: 0.049 (URI: http://data.bibliotheken.nl/id/thes/p137073291)
+4 : Reinier Boitet, CM: 0.048 (URI: http://data.bibliotheken.nl/id/thes/p128562617)
+
+
+Community 6, total members of the community: 127, Period: (1741, 1803), Number of books: 141
+Top 5 nodes according to degree centrality:
+0 : Nijhoff, Jacob, CM: 0.057 (URI: http://data.bibliotheken.nl/id/thes/p075575337)
+1 : Albert van der Kroe, CM: 0.049 (URI: http://data.bibliotheken.nl/id/thes/p135704650)
+2 : Huysman, Jacobus, CM: 0.049 (URI: http://data.bibliotheken.nl/id/thes/p136420834)
+3 : Huisingh, Lubbartus, CM: 0.047 (URI: http://data.bibliotheken.nl/id/thes/p136420613)
+4 : Clement, Simon, CM: 0.046 (URI: http://data.bibliotheken.nl/id/thes/p134924797)
+
+
+Community 7, total members of the community: 106, Period: (1755, 1808), Number of books: 67
+Top 5 nodes according to degree centrality:
+0 : Cornelis Ploos van Amstel, CM: 0.019 (URI: http://data.bibliotheken.nl/id/thes/p069186294)
+1 : Yver, Jan, CM: 0.017 (URI: https://id.rijksmuseum.nl/310174665)
+2 : Langeveld, Dirk Meland, CM: 0.013 (URI: http://data.bibliotheken.nl/id/thes/p136459420)
+3 : Johannes Smit, CM: 0.012 (URI: http://data.bibliotheken.nl/id/thes/p137057091)
+4 : Hendrik Willem Dronsberg, CM: 0.011 (URI: http://data.bibliotheken.nl/id/thes/p135753791)
+
+
+Community 8, total members of the community: 95, Period: (1695, 1742), Number of books: 38
+Top 5 nodes according to degree centrality:
+0 : Author (for the), CM: 0.063 (URI: http://data.bibliotheken.nl/id/thes/p075566761)
+1 : Johannes Ratelband, CM: 0.021 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/36665)
+2 : Lee, Matthijs van, CM: 0.02 (URI: http://data.bibliotheken.nl/id/thes/p136460747)
+3 : Beyeren, Jan van, CM: 0.02 (URI: http://data.bibliotheken.nl/id/thes/p075574977)
+4 : Hendrik van Damme, CM: 0.02 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/36756)
+
+
+Community 9, total members of the community: 91, Period: (1782, 1808), Number of books: 40
+Top 5 nodes according to degree centrality:
+0 : Abraham Blussé, CM: 0.107 (URI: http://data.bibliotheken.nl/id/thes/p075575442)
+1 : Blussé, Pieter, CM: 0.074 (URI: http://data.bibliotheken.nl/id/thes/p075575450)
+2 : Plaats, Volkert van der, CM: 0.037 (URI: http://data.bibliotheken.nl/id/thes/p136585973)
+3 : Gerrit Warnars, CM: 0.032 (URI: http://data.bibliotheken.nl/id/thes/p075575434)
+4 : Abrahams, Willem (wed.), CM: 0.025 (URI: http://data.bibliotheken.nl/id/thes/p127848185)
+
+
+Community 10, total members of the community: 72, Period: (1534, 1776), Number of books: 30
+Top 5 nodes according to degree centrality:
+0 : Cornelis Claesz, CM: 0.009 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/13427)
+1 : Martin Luther, CM: 0.008 (URI: http://data.bibliotheken.nl/id/thes/p068440146)
+2 : Claes Claesz Visscher, CM: 0.006 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/11238)
+3 : Lodewijk Elsevier, CM: 0.006 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/30862)
+4 : Nicolaes Biestkens, CM: 0.005 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/15231)
+
+
+Community 11, total members of the community: 54, Period: (1732, 1805), Number of books: 24
+Top 5 nodes according to degree centrality:
+0 : Cornelis van Hoogeveen, CM: 0.017 (URI: http://data.bibliotheken.nl/id/thes/p136413242)
+1 : Honkoop, Abraham I (wed.), CM: 0.013 (URI: http://data.bibliotheken.nl/id/thes/p13633704X)
+2 : Vrij, Willem de, CM: 0.009 (URI: http://data.bibliotheken.nl/id/thes/p138237417)
+3 : Troost, Wouter, CM: 0.009 (URI: http://data.bibliotheken.nl/id/thes/p075575493)
+4 : Gijsbert de Vrij, CM: 0.009 (URI: http://data.bibliotheken.nl/id/thes/p138237107)
+
+
+Community 12, total members of the community: 48, Period: (1580, 1734), Number of books: 22
+Top 5 nodes according to degree centrality:
+0 : Boëtius Adamsz. a Bolswert, CM: 0.004 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/1132)
+1 : Maes, Jan (III), CM: 0.004 (URI: http://data.bibliotheken.nl/id/thes/p337609462)
+2 : Lucas Emil Vorsterman I, CM: 0.004 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/7989)
+3 : Heribert Rosweyde, CM: 0.004 (URI: http://data.bibliotheken.nl/id/thes/p06840428X)
+4 : Gaspar Bouttats II, CM: 0.004 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/1336)
+
+
+Community 13, total members of the community: 36, Period: (1643, 1712), Number of books: 30
+Top 5 nodes according to degree centrality:
+0 : Marcus Willemsz. Doornick, CM: 0.006 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/2559)
+1 : Jacob Willems van Meurs, CM: 0.005 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/5223)
+2 : Jan Jansz. Veenhuysen, CM: 0.005 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/7602)
+3 : Jan Pietersz van Someren, CM: 0.004 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/25361)
+4 : Tobias van Domselaer, CM: 0.004 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/38338)
+
+
+Community 14, total members of the community: 22, Period: (1658, 1715), Number of books: 44
+Top 5 nodes according to degree centrality:
+0 : Janssen, Anthony, CM: 0.004 (URI: https://id.rijksmuseum.nl/310138953)
+1 : Willem Swidde de jonge, CM: 0.003 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/7280)
+2 : Jan Isaacx van Neer, CM: 0.002 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/24802)
+3 : Joachim Oudaen, CM: 0.002 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/38204)
+4 : Anthonie de Winter, CM: 0.002 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/8340)
+
+
+Community 15, total members of the community: 15, Period: (1785, 1785), Number of books: 2
+Top 5 nodes according to degree centrality:
+0 : Bolt, Leonard, CM: 0.005 (URI: http://data.bibliotheken.nl/id/thes/p14378496X)
+1 : Veenkamp, L., CM: 0.005 (URI: http://data.bibliotheken.nl/id/thes/p190579242)
+2 : Stemmers, Caspar, CM: 0.005 (URI: http://data.bibliotheken.nl/id/thes/p137077238)
+3 : Sligh, Cornelis van, CM: 0.005 (URI: http://data.bibliotheken.nl/id/thes/p143796062)
+4 : Reinders, Dooye, CM: 0.005 (URI: http://data.bibliotheken.nl/id/thes/p136934668)
+
+
+Community 16, total members of the community: 11, Period: (1660, 1666), Number of books: 3
+Top 5 nodes according to degree centrality:
+0 : Petrus Hackius, CM: 0.004 (URI: http://data.bibliotheken.nl/id/thes/p075547473)
+1 : Hackius, Cornelius, CM: 0.003 (URI: http://data.bibliotheken.nl/id/thes/p075547449)
+2 : Franciscus Hackius, CM: 0.003 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/38155)
+3 : Thomas Dempster, CM: 0.003 (URI: http://data.bibliotheken.nl/id/thes/p070286426)
+4 : Schrevelius, Cornelius, CM: 0.003 (URI: https://id.rijksmuseum.nl/310103118)
+
+
+Community 17, total members of the community: 9, Period: (1705, 1821), Number of books: 3
+Top 5 nodes according to degree centrality:
+0 : Hugo de Groot, CM: 0.004 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/37484)
+1 : Tydeman, Meinard, CM: 0.002 (URI: https://id.rijksmuseum.nl/310115253)
+2 : Meinard Tydeman, CM: 0.002 (URI: http://data.bibliotheken.nl/id/thes/p068442149)
+3 : Jean Barbeyrac, CM: 0.002 (URI: http://data.bibliotheken.nl/id/thes/p068414358)
+4 : Gronovius, Johannes Fredericus, CM: 0.002 (URI: https://id.rijksmuseum.nl/31044959)
+
+
+Community 18, total members of the community: 9, Period: (1504, 1534), Number of books: 4
+Top 5 nodes according to degree centrality:
+0 : Lucas Huygens van Leyden, CM: 0.002 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/4591)
+1 : Jan Seversz, CM: 0.002 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/46286)
+2 : Jacob Cornelisz. van Oostzanen, CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/5761)
+3 : Doen Pietersz, CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/21399)
+4 : Delibéré, Chevalier, CM: 0.001 (URI: https://id.rijksmuseum.nl/31027609)
+
+
+Community 19, total members of the community: 9, Period: (1690, 1691), Number of books: 4
+Top 5 nodes according to degree centrality:
+0 : Antonij Schouten, CM: 0.003 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/38851)
+1 : Torrenti, Laevinio, CM: 0.002 (URI: https://id.rijksmuseum.nl/310114155)
+2 : Rudolph van Zijll, CM: 0.002 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/21449)
+3 : Marcilio, Theodoro, CM: 0.002 (URI: https://id.rijksmuseum.nl/31073441)
+4 : Johan van Velsen, CM: 0.002 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/46718)
+
+
+Community 20, total members of the community: 9, Period: (1695, 1768), Number of books: 9
+Top 5 nodes according to degree centrality:
+0 : Paulus Scheltus, CM: 0.002 (URI: http://data.bibliotheken.nl/id/thes/p075558327)
+1 : Sparre, Carl Gustaf, CM: 0.002 (URI: https://id.rijksmuseum.nl/310148947)
+2 : Görtz, Georg Heinrich, CM: 0.002 (URI: https://id.rijksmuseum.nl/310148948)
+3 : Georg Heinrich Görtz, CM: 0.002 (URI: http://data.bibliotheken.nl/id/thes/p167205757)
+4 : Carl Gyllenborg, CM: 0.002 (URI: http://data.bibliotheken.nl/id/thes/p152859772)
+
+
+Community 21, total members of the community: 9, Period: (1757, 1757), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Willem Otto Reitz, CM: 0.003 (URI: http://data.bibliotheken.nl/id/thes/p06996419X)
+1 : Nicolaas Ypeij, CM: 0.003 (URI: http://data.bibliotheken.nl/id/thes/p068929099)
+2 : Nic. Engelhard, CM: 0.003 (URI: http://data.bibliotheken.nl/id/thes/p070021783)
+3 : Meindert Semeyns, CM: 0.003 (URI: http://data.bibliotheken.nl/id/thes/p146379314)
+4 : Johannes Nettis, CM: 0.003 (URI: http://data.bibliotheken.nl/id/thes/p284829161)
+
+
+Community 22, total members of the community: 9, Period: (1634, 1690), Number of books: 4
+Top 5 nodes according to degree centrality:
+0 : Tongerloo, Johannes, CM: 0.002 (URI: http://data.bibliotheken.nl/id/thes/p075561379)
+1 : Veely, Jan, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p075561816)
+2 : Tongerloo, Pieter, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p075561387)
+3 : Tongerloo, Anthony Jansz, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p075561360)
+4 : Johannes Rammazeyn, CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/20670)
+
+
+Community 23, total members of the community: 8, Period: (1653, 1669), Number of books: 3
+Top 5 nodes according to degree centrality:
+0 : Jacob Savery III, CM: 0.002 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/6579)
+1 : Jacob Cornelisz. Braat, CM: 0.002 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/52735)
+2 : Vries, S. de, CM: 0.001 (URI: https://id.rijksmuseum.nl/310119679)
+3 : Lambert van den Bosch, CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/55721)
+4 : Gerrit Gerritsz. van Fenaem, CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/2878)
+
+
+Community 24, total members of the community: 8, Period: (1705, 1705), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Simon Simonides, CM: 0.002 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/53323)
+1 : Pieter van Rijschooten, CM: 0.002 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/31015)
+2 : Petrus Molinaeus, CM: 0.002 (URI: http://data.bibliotheken.nl/id/thes/p069222975)
+3 : Karel van Rijschooten, CM: 0.002 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/31017)
+4 : Jean de Focquenbergues, CM: 0.002 (URI: http://data.bibliotheken.nl/id/thes/p072024755)
+
+
+Community 25, total members of the community: 7, Period: (1634, 1680), Number of books: 3
+Top 5 nodes according to degree centrality:
+0 : Hans Wiericx, CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/8251)
+1 : Thomas More, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p068952082)
+2 : Joannes van Ravesteyn, CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/37980)
+3 : François Fickaert, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p314521992)
+4 : Francois Fickaert II, CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/42435)
+
+
+Community 26, total members of the community: 6, Period: (1640, 1654), Number of books: 3
+Top 5 nodes according to degree centrality:
+0 : Pieter Casteleyn, CM: 0.002 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/1675)
+1 : Vincenzo Cartari, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p102995117)
+2 : Vincent Casteleyn sr., CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/9371)
+3 : Antoine Du Verdier, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p073500291)
+4 : Dirck Salomonsz. de Bray, CM: 0.0 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/1362)
+
+
+Community 27, total members of the community: 6, Period: (1786, 1797), Number of books: 3
+Top 5 nodes according to degree centrality:
+0 : Eysden, Nicolaas van, CM: 0.002 (URI: http://data.bibliotheken.nl/id/thes/p135786703)
+1 : Sley, J. v., CM: 0.002 (URI: https://id.rijksmuseum.nl/310106226)
+2 : Morks, B.J., CM: 0.002 (URI: http://data.bibliotheken.nl/id/thes/p136548164)
+3 : Leeuw, Jan de, CM: 0.002 (URI: http://data.bibliotheken.nl/id/thes/p142081884)
+4 : Krap Az., Jan, CM: 0.002 (URI: http://data.bibliotheken.nl/id/thes/p075576252)
+
+
+Community 28, total members of the community: 6, Period: (1781, 1804), Number of books: 6
+Top 5 nodes according to degree centrality:
+0 : Vliet, Willem van, CM: 0.002 (URI: http://data.bibliotheken.nl/id/thes/p137668627)
+1 : Pieter de Mare, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p074290355)
+2 : Christina Chalon, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p074290371)
+3 : Pieter Kikkert, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p073412198)
+4 : Timmer, Corneille, CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p183121422)
+
+
+Community 29, total members of the community: 6, Period: (1767, 1767), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Visser, Jakob, CM: 0.002 (URI: https://id.rijksmuseum.nl/310140560)
+1 : Jakob Visser, CM: 0.002 (URI: http://data.bibliotheken.nl/id/thes/p067822045)
+2 : Henricus Gockinga, CM: 0.002 (URI: http://data.bibliotheken.nl/id/thes/p070051925)
+3 : Gockinga, Henricus, CM: 0.002 (URI: https://id.rijksmuseum.nl/310140561)
+4 : Damme, Pieter van, CM: 0.002 (URI: http://data.bibliotheken.nl/id/thes/p135711746)
+
+
+Community 30, total members of the community: 6, Period: (1694, 1701), Number of books: 3
+Top 5 nodes according to degree centrality:
+0 : Jacobus Harmens van Hardenberg, CM: 0.002 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/36609)
+1 : Potter Lodowykszoon, David de, CM: 0.001 (URI: https://id.rijksmuseum.nl/31091946)
+2 : David Lodewijcksz. de Potter, CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/55597)
+3 : Johan van Dueren, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p069612978)
+4 : Duren, J. van, CM: 0.001 (URI: https://id.rijksmuseum.nl/31031409)
+
+
+Community 31, total members of the community: 6, Period: (1748, 1748), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Zacharias Romberg, CM: 0.002 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/45036)
+1 : Seuter, Barthol., CM: 0.002 (URI: https://id.rijksmuseum.nl/310104758)
+2 : Johann Elias Ridinger, CM: 0.002 (URI: http://data.bibliotheken.nl/id/thes/p268025177)
+3 : Haid, J.J., CM: 0.002 (URI: https://id.rijksmuseum.nl/31046725)
+4 : Burmannus, Johannes, CM: 0.002 (URI: https://id.rijksmuseum.nl/31017398)
+
+
+Community 32, total members of the community: 5, Period: (1658, 1658), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Swichtenheuvel, Jan Jansz., CM: 0.001 (URI: https://id.rijksmuseum.nl/310172081)
+1 : Jan Jansz. Swichtenheuvel, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p074172255)
+2 : Isaac van Wesbusch, CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/41010)
+3 : Galenus Abrahamsz. de Haan, CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/53460)
+4 : David Spruyt, CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/19407)
+
+
+Community 33, total members of the community: 5, Period: (1749, 1765), Number of books: 10
+Top 5 nodes according to degree centrality:
+0 : Wilt, Cornelis, CM: 0.002 (URI: http://data.bibliotheken.nl/id/thes/p138261563)
+1 : Pieter Mortier III, CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/13604)
+2 : Mortier, Pieter (II, wed.), CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p136548784)
+3 : Samuel Lamsveld, CM: 0.0 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/21176)
+4 : Gerrit Bos, CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p13454059X)
+
+
+Community 34, total members of the community: 5, Period: (1683, 1702), Number of books: 2
+Top 5 nodes according to degree centrality:
+0 : Cornelis Stichter, CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/38655)
+1 : Weert, Joannes van, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p075564424)
+2 : Luchtenburg, A., CM: 0.001 (URI: https://id.rijksmuseum.nl/310141763)
+3 : Isaac Haringhuysen, CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/40896)
+4 : Pieter Rembrantsz van Nierop, CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p069850267)
+
+
+Community 35, total members of the community: 5, Period: (1714, 1745), Number of books: 2
+Top 5 nodes according to degree centrality:
+0 : Wydts, Andreas, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p298889390)
+1 : Stryckwant, Nicolaus, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p315662824)
+2 : Norbertus Heylbroeck, CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/55464)
+3 : Berterham, J.B., CM: 0.001 (URI: https://id.rijksmuseum.nl/3109689)
+4 : Verschoot, B., CM: 0.0 (URI: https://id.rijksmuseum.nl/310117917)
+
+
+Community 36, total members of the community: 4, Period: (1565, 1565), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Mollijns, Jan, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p075578336)
+1 : Jan Mollijns, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p305249975)
+2 : Hendrick Aelbertsz., CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/38522)
+3 : Hasselt, Peeter van, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p075578344)
+
+
+Community 37, total members of the community: 4, Period: (1784, 1784), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Santheuvel, Antonius Diedericus van den, CM: 0.001 (URI: https://id.rijksmuseum.nl/310154929)
+1 : Mey, L. van der, CM: 0.001 (URI: https://id.rijksmuseum.nl/310154928)
+2 : Jan de Kruyff, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p07010400X)
+3 : Chastelein, C.P., CM: 0.001 (URI: https://id.rijksmuseum.nl/310154889)
+
+
+Community 38, total members of the community: 4, Period: (1751, 1751), Number of books: 2
+Top 5 nodes according to degree centrality:
+0 : Ryke, Jan de, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p136934390)
+1 : Marci, Adolph Frederik, CM: 0.001 (URI: https://id.rijksmuseum.nl/310172331)
+2 : Maarten, Dirk van, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p136530702)
+3 : Adolph Frederik Marci, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p072911719)
+
+
+Community 39, total members of the community: 4, Period: (1759, 1759), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Taylor, Brook, CM: 0.001 (URI: https://id.rijksmuseum.nl/310175488)
+1 : Newton, Isaac, CM: 0.001 (URI: https://id.rijksmuseum.nl/310169980)
+2 : Murdoch, Patrick, CM: 0.001 (URI: https://id.rijksmuseum.nl/310175489)
+3 : Bruyset, Jean-Marie, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p19118456X)
+
+
+Community 40, total members of the community: 4, Period: (1787, 1787), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Vignoles, Charles Emmanuel de, CM: 0.001 (URI: https://id.rijksmuseum.nl/310140487)
+1 : Laak, Rutger van, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p136455107)
+2 : DuBois, CM: 0.001 (URI: https://id.rijksmuseum.nl/310140486)
+3 : Charles Emmanuel de Vignoles, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p067572588)
+
+
+Community 41, total members of the community: 4, Period: (1724, 1724), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Strandiger, Laurens, CM: 0.001 (URI: https://id.rijksmuseum.nl/310141485)
+1 : Schouten, Aart Dirk, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p137047819)
+2 : Laurens Strandiger, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p304401137)
+3 : Jacomina van Duijvelant, CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/38856)
+
+
+Community 42, total members of the community: 4, Period: (1777, 1806), Number of books: 3
+Top 5 nodes according to degree centrality:
+0 : Ratelband, Jeronimus (wed., erven), CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p280698720)
+1 : Johannes Eusebius Voet, CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/49787)
+2 : Ghysen, Hendrik, CM: 0.001 (URI: https://id.rijksmuseum.nl/310189584)
+3 : Bouwer, Johannes, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p134544404)
+
+
+Community 43, total members of the community: 4, Period: (1740, 1740), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : With, Ludolf Simon de, CM: 0.001 (URI: https://id.rijksmuseum.nl/310140158)
+1 : Pannekoek, Anthony, CM: 0.001 (URI: https://id.rijksmuseum.nl/310141294)
+2 : Groot Keur, Gijsbert de, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p136166741)
+3 : Dudok, Everardus, CM: 0.001 (URI: https://id.rijksmuseum.nl/310141293)
+
+
+Community 44, total members of the community: 4, Period: (1786, 1786), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Veen, Gabriel van , CM: 0.001 (URI: https://id.rijksmuseum.nl/310155110)
+1 : Schouten, P., CM: 0.001 (URI: https://id.rijksmuseum.nl/310155111)
+2 : Pryn, J.A., CM: 0.001 (URI: https://id.rijksmuseum.nl/310155109)
+3 : Hollebeeck, Jan, CM: 0.001 (URI: https://id.rijksmuseum.nl/310155112)
+
+
+Community 45, total members of the community: 4, Period: (1781, 1781), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Versteegh, P., CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p317233912)
+1 : Ploos van Amstel, Jacob, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p136586112)
+2 : Ploos van Amstel, Cornelis, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p136586058)
+3 : Ploos van Amstel, CM: 0.001 (URI: https://id.rijksmuseum.nl/310141441)
+
+
+Community 46, total members of the community: 4, Period: (1700, 1799), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Wranitzky, Paolo, CM: 0.001 (URI: https://id.rijksmuseum.nl/310141595)
+1 : Röder, Johann Christoph, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p136929168)
+2 : Paolo Wraniken, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p395338271)
+3 : Christoph Martin Wieland, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p068574258)
+
+
+Community 47, total members of the community: 4, Period: (1550, 1566), Number of books: 2
+Top 5 nodes according to degree centrality:
+0 : Hiëronymus Cock, CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/1873)
+1 : Pieter van der Heyden, CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/3713)
+2 : Heyden, Pieter van der, CM: 0.001 (URI: https://id.rijksmuseum.nl/31050676)
+3 : Volcxken Diericx, CM: 0.0 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/24512)
+
+
+Community 48, total members of the community: 4, Period: (1668, 1670), Number of books: 2
+Top 5 nodes according to degree centrality:
+0 : Andries Fries, CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/23670)
+1 : Nihusius, Bartholdus, CM: 0.001 (URI: https://id.rijksmuseum.nl/310155353)
+2 : Fonteyn, Nicolaas, CM: 0.001 (URI: https://id.rijksmuseum.nl/310155354)
+3 : Christopher Merret, CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p07135929X)
+
+
+Community 49, total members of the community: 4, Period: (1666, 1685), Number of books: 2
+Top 5 nodes according to degree centrality:
+0 : Scheltus, Jacobus (I), CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p075558300)
+1 : Leonard Scheltus, CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/38750)
+2 : Coevenhoven, Nicolaes van, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p075542706)
+3 : Gaspar Fagel, CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p070033404)
+
+
+Community 50, total members of the community: 4, Period: (1503, 1503), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Meester van de Virgo inter Virgines, CM: 0.001 (URI: https://id.rijksmuseum.nl/31075652)
+1 : Meester van de Delbecq-Schreiber-Passie, CM: 0.001 (URI: https://id.rijksmuseum.nl/310149693)
+2 : Meester van Delft, CM: 0.001 (URI: https://id.rijksmuseum.nl/31075658)
+3 : Eckert van Homberch, Henrick, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p329577891)
+
+
+Community 51, total members of the community: 4, Period: (1638, 1661), Number of books: 2
+Top 5 nodes according to degree centrality:
+0 : Jacob Aertsz Colom, CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/12392)
+1 : Frans Allen, CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/56830)
+2 : Cornelis Koninck, CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/4374)
+3 : Experiens Sillemans, CM: 0.0 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/6815)
+
+
+Community 52, total members of the community: 4, Period: (1751, 1751), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Jan de Groot, CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/51816)
+1 : Groot, Willem de, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p136166695)
+2 : Groot, Stephanus de, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p136166571)
+3 : Anthony de Groot, CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/14737)
+
+
+Community 53, total members of the community: 3, Period: (1645, 1645), Number of books: 2
+Top 5 nodes according to degree centrality:
+0 : Petrus Sybrandtz Baardt, CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/53055)
+1 : Steffen Geerts Samplonius, CM: 0.0 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/21328)
+2 : Hans Willemsz Coopman, CM: 0.0 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/21280)
+
+
+Community 54, total members of the community: 3, Period: (1701, 1701), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Tobias Gutberleth, CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/51900)
+1 : Henricus Amama, CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/23222)
+2 : Arend Jelmers, CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/21437)
+
+
+Community 55, total members of the community: 3, Period: (1714, 1714), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Tessers, Cornelis, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p083722300)
+1 : Joan de Haes , CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/51831)
+2 : Jan van Hoogstraten, CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/10556)
+
+
+Community 56, total members of the community: 3, Period: (1754, 1754), Number of books: 2
+Top 5 nodes according to degree centrality:
+0 : Daniël Raap, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p094306133)
+1 : Patriot, CM: 0.0 (URI: https://id.rijksmuseum.nl/310139527)
+2 : Jacob Baroen, CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p241139317)
+
+
+Community 57, total members of the community: 3, Period: (1738, 1738), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Rudolph Brouwer, CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/42618)
+1 : Putter, C.D., CM: 0.001 (URI: https://id.rijksmuseum.nl/31092985)
+2 : J.E. Geroe, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p166003867)
+
+
+Community 58, total members of the community: 3, Period: (1794, 1794), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Heekeren, J. van, CM: 0.001 (URI: https://id.rijksmuseum.nl/31048839)
+1 : Du Mortier, David (II), CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p135766311)
+2 : Du Mortier, David (I), CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p135766028)
+
+
+Community 59, total members of the community: 3, Period: (1787, 1787), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Noord, J. v., CM: 0.001 (URI: https://id.rijksmuseum.nl/31084547)
+1 : Gryp, Wiggert Hendrik, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p136166873)
+2 : Gryp, W.H., CM: 0.001 (URI: https://id.rijksmuseum.nl/31045374)
+
+
+Community 60, total members of the community: 3, Period: (1672, 1672), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Manlyn, Daniel, CM: 0.001 (URI: https://id.rijksmuseum.nl/310140927)
+1 : Hugo Rijckhals, CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/21239)
+2 : Daniel Manlyn, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p070093679)
+
+
+Community 61, total members of the community: 3, Period: (1796, 1796), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : William Humphreys, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p286874555)
+1 : Humphreys, William, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p286874539)
+2 : David Hess, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p070661073)
+
+
+Community 62, total members of the community: 3, Period: (1753, 1753), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Jacob Cornelis Schoots van Capelle, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p137047266)
+1 : Christoffel van Brants Holtzapffel, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p108088243)
+2 : Brants Holtzapffel, Christoffel van, CM: 0.001 (URI: https://id.rijksmuseum.nl/310140544)
+
+
+Community 63, total members of the community: 3, Period: (1785, 1785), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Koning, C.H., CM: 0.001 (URI: https://id.rijksmuseum.nl/31062049)
+1 : Hulk, J., CM: 0.001 (URI: https://id.rijksmuseum.nl/31053977)
+2 : Hulk, A., CM: 0.001 (URI: https://id.rijksmuseum.nl/310152898)
+
+
+Community 64, total members of the community: 3, Period: (1719, 1719), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Schyn, Hermannus, CM: 0.001 (URI: https://id.rijksmuseum.nl/310103866)
+1 : Jacobus Borstius, CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/28957)
+2 : Dam, Hubert van, CM: 0.001 (URI: https://id.rijksmuseum.nl/310140270)
+
+
+Community 65, total members of the community: 3, Period: (1644, 1644), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Rembertus Dodonaeus, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p070006725)
+1 : Charles de l' Ecluse, CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/2709)
+2 : Balthasar Moretus II, CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/22769)
+
+
+Community 66, total members of the community: 3, Period: (1759, 1759), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Verpoorten, Jan, CM: 0.001 (URI: https://id.rijksmuseum.nl/310153261)
+1 : Box, W., CM: 0.001 (URI: https://id.rijksmuseum.nl/310153264)
+2 : Boogaart, P. v.d., CM: 0.001 (URI: https://id.rijksmuseum.nl/310153263)
+
+
+Community 67, total members of the community: 3, Period: (1608, 1608), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Jan Mommaert I, CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/49827)
+1 : Hermes van Haspregouwe, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p31881563X)
+2 : Haspregouwe, Hermes van, CM: 0.001 (URI: https://id.rijksmuseum.nl/310140457)
+
+
+Community 68, total members of the community: 3, Period: (1645, 1645), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Origanus, David, CM: 0.001 (URI: https://id.rijksmuseum.nl/310141773)
+1 : Hans Passchiers van Wesbusch, CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/41006)
+2 : David Origanus, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p069146845)
+
+
+Community 69, total members of the community: 3, Period: (1664, 1664), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Johannes van Vliet, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p068422687)
+1 : Evermans, Johannes, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p075545632)
+2 : Abraham Dircksz van Santvoort, CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/6565)
+
+
+Community 70, total members of the community: 3, Period: (1644, 1644), Number of books: 2
+Top 5 nodes according to degree centrality:
+0 : Florentius Schuylius, CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/56948)
+1 : Dockum, Jan van, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p075544261)
+2 : David Hoogenhuysen, CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/20239)
+
+
+Community 71, total members of the community: 3, Period: (1628, 1635), Number of books: 2
+Top 5 nodes according to degree centrality:
+0 : Gerbrantsz, Marten, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p075546477)
+1 : L.H.D.W., CM: 0.0 (URI: https://id.rijksmuseum.nl/310155042)
+2 : Abraham Mahu Nachtegael, CM: 0.0 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/40948)
+
+
+Community 72, total members of the community: 3, Period: (1592, 1592), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Verhaghen, Peeter, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p075562340)
+1 : Troyen, Jasper (I), CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p075561522)
+2 : Pierre Boaistuau, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p069368155)
+
+
+Community 73, total members of the community: 3, Period: (1650, 1671), Number of books: 2
+Top 5 nodes according to degree centrality:
+0 : Marcus â Zuerius Boxhorn, CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/41967)
+1 : Willem Dircxsz van Rijnenburgh, CM: 0.0 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/42369)
+2 : Gijsbert van Zijll, CM: 0.0 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/21448)
+
+
+Community 74, total members of the community: 3, Period: (1610, 1610), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Veer, Ellert de, CM: 0.001 (URI: https://id.rijksmuseum.nl/310117102)
+1 : Pieter Pietersz., CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/22367)
+2 : Ellert de Veer, CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/40508)
+
+
+Community 75, total members of the community: 3, Period: (1658, 1659), Number of books: 2
+Top 5 nodes according to degree centrality:
+0 : Gabriel à Roy, CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/38952)
+1 : Jacob Redinger, CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p06992578X)
+2 : Isaac de la Tombe, CM: 0.0 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/17205)
+
+
+Community 76, total members of the community: 3, Period: (1673, 1673), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Wynant van Westen, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p071153934)
+1 : Westen, Wynant van, CM: 0.001 (URI: https://id.rijksmuseum.nl/310138460)
+2 : Lijntje Robijns, CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/13466)
+
+
+Community 77, total members of the community: 3, Period: (1650, 1650), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : s.n., CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p075566028)
+1 : Johannes Goethals, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p069658560)
+2 : Goethals, Johannes, CM: 0.001 (URI: https://id.rijksmuseum.nl/310152773)
+
+
+Community 78, total members of the community: 3, Period: (1557, 1557), Number of books: 2
+Top 5 nodes according to degree centrality:
+0 : Tournes, Jean de (I), CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p075569418)
+1 : Borluit, Guilliaume, CM: 0.001 (URI: https://id.rijksmuseum.nl/31013300)
+2 : Bernard Salomon, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p151630771)
+
+
+Community 79, total members of the community: 3, Period: (1759, 1759), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Groot, Pieter de, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p235676764)
+1 : Graawenhaan, C. van, CM: 0.001 (URI: https://id.rijksmuseum.nl/31043823)
+2 : Duyn, C. van (jr.), CM: 0.001 (URI: https://id.rijksmuseum.nl/31031549)
+
+
+Community 80, total members of the community: 3, Period: (1777, 1777), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Wauters, J.L., CM: 0.001 (URI: https://id.rijksmuseum.nl/310121012)
+1 : Gimblet, gebroeders, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p338340882)
+2 : Gimblet, Philippe, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p338340866)
+
+
+Community 81, total members of the community: 3, Period: (1678, 1678), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Lucas Vorsterman II, CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/7990)
+1 : Frans Sijmense Lamminga, CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/21318)
+2 : Frans Ertinger, CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/2792)
+
+
+Community 82, total members of the community: 3, Period: (1711, 1711), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Vries, Pieter de, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p138235929)
+1 : Jacobus van Egmont (I), CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/39915)
+2 : Hendrik van Monnem, CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/39229)
+
+
+Community 83, total members of the community: 3, Period: (1664, 1664), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Samuel Knudde, CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/21217)
+1 : Samuel Imbrechts, CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/17237)
+2 : Arent Gerritsz van den Heuvel, CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/39587)
+
+
+Community 84, total members of the community: 3, Period: (1641, 1641), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Dorp, Jan Jansz. van, CM: 0.001 (URI: http://data.bibliotheken.nl/id/thes/p075544555)
+1 : Andries Jansz Cloeting, CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/21005)
+2 : Abraham Commelinus, CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/40175)
+
+
+Community 85, total members of the community: 3, Period: (1662, 1662), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Otto Barents Smient, CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/30037)
+1 : Joost Otto Smient, CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/30045)
+2 : Barent Otto Smient, CM: 0.001 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/30035)
+
+
+Community 86, total members of the community: 2, Period: (1614, 1614), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Jan Leendertsz Berewout, CM: 0.0 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/17223)
+1 : Conradus Mirkinius, CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p06986165X)
+
+
+Community 87, total members of the community: 2, Period: (1687, 1699), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Joachim van Dyck, CM: 0.0 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/36663)
+1 : Jacques le Moine de l'Espine, CM: 0.0 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/57346)
+
+
+Community 88, total members of the community: 2, Period: (1535, 1535), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Theodoricus Loer, CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p071569219)
+1 : Jan Berntsz [Huysinck], CM: 0.0 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/26604)
+
+
+Community 89, total members of the community: 2, Period: (1563, 1563), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Johannes Dyrkinus, CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p092713971)
+1 : Erve, Gillis van der, CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p075568829)
+
+
+Community 90, total members of the community: 2, Period: (1692, 1692), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Meyer, Johannes, CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p075553813)
+1 : Eversdyck, Cornelis, CM: 0.0 (URI: https://id.rijksmuseum.nl/310141754)
+
+
+Community 91, total members of the community: 2, Period: (1716, 1716), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Jan van Gijsen , CM: 0.0 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/51822)
+1 : Hester Jagers, CM: 0.0 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/24120)
+
+
+Community 92, total members of the community: 2, Period: (1736, 1736), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Simon van Leeuwen, CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p068465505)
+1 : Jan Boom, CM: 0.0 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/38241)
+
+
+Community 93, total members of the community: 2, Period: (1736, 1736), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Pieter van den Berge, CM: 0.0 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/900)
+1 : Meyer, Herman, CM: 0.0 (URI: https://id.rijksmuseum.nl/310140921)
+
+
+Community 94, total members of the community: 2, Period: (1694, 1694), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Leonard Strick, CM: 0.0 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/30712)
+1 : Jacobus Gronovius, CM: 0.0 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/52523)
+
+
+Community 95, total members of the community: 2, Period: (1785, 1785), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Verveer, Jan, CM: 0.0 (URI: https://id.rijksmuseum.nl/310153752)
+1 : Manheer, G., CM: 0.0 (URI: https://id.rijksmuseum.nl/310153756)
+
+
+Community 96, total members of the community: 2, Period: (1796, 1796), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Cornelis Byl, CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p074943073)
+1 : Byl, Cornelis, CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p134853881)
+
+
+Community 97, total members of the community: 2, Period: (1786, 1786), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Petrus Hofstede, CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p068279485)
+1 : Momus, Klaas, CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p136546161)
+
+
+Community 98, total members of the community: 2, Period: (1787, 1787), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Kasteele, Reinier Pieter van de, CM: 0.0 (URI: https://id.rijksmuseum.nl/31058843)
+1 : Campen, P. van, CM: 0.0 (URI: https://id.rijksmuseum.nl/310153736)
+
+
+Community 99, total members of the community: 2, Period: (1770, 1779), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Fokke, Arent, CM: 0.0 (URI: https://id.rijksmuseum.nl/310139811)
+1 : Arend Fokke, CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p410381977)
+
+
+Community 100, total members of the community: 2, Period: (1609, 1609), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Joris Waters Jorissoon, CM: 0.0 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/46015)
+1 : Carolus Battus, CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p06936821X)
+
+
+Community 101, total members of the community: 2, Period: (1724, 1724), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Pieter Bernagie, CM: 0.0 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/24271)
+1 : Adriaan Bastiaans, CM: 0.0 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/26742)
+
+
+Community 102, total members of the community: 2, Period: (1722, 1722), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Limburg, Abraham van, CM: 0.0 (URI: https://id.rijksmuseum.nl/310141669)
+1 : Fouree, Hend., CM: 0.0 (URI: https://id.rijksmuseum.nl/310141670)
+
+
+Community 103, total members of the community: 2, Period: (1757, 1757), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Dominicus Lens, CM: 0.0 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/22388)
+1 : Bandsma, Pieter, CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p128029323)
+
+
+Community 104, total members of the community: 2, Period: (1746, 1746), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Michiel Comans III, CM: 0.0 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/1966)
+1 : Gostling, John, CM: 0.0 (URI: https://id.rijksmuseum.nl/310140320)
+
+
+Community 105, total members of the community: 2, Period: (1650, 1650), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Wolsschaten, Geeraerdt van (II), CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p312673817)
+1 : Seger van Dort, CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p242262406)
+
+
+Community 106, total members of the community: 2, Period: (1641, 1641), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Schoevaerdts, Govaerdt, CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p313896720)
+1 : Guilielmus Theodosius van Walhorn, CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p314004327)
+
+
+Community 107, total members of the community: 2, Period: (1768, 1768), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Rootjes, C., CM: 0.0 (URI: https://id.rijksmuseum.nl/310140496)
+1 : Gorter, Jan, CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p136057500)
+
+
+Community 108, total members of the community: 2, Period: (1691, 1691), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Marteau, Pierre, CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p075553422)
+1 :  V.M.G., CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p115145540)
+
+
+Community 109, total members of the community: 2, Period: (1700, 1799), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : I.M. Bregmagher, CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p06891024X)
+1 : Greve, Ysack, CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p136161650)
+
+
+Community 110, total members of the community: 2, Period: (1700, 1799), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Koster, Gerrit, CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p401326748)
+1 : Jukkenekke, T., CM: 0.0 (URI: https://id.rijksmuseum.nl/310154102)
+
+
+Community 111, total members of the community: 2, Period: (1581, 1581), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Willem van Oranje-Nassau I, CM: 0.0 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/43173)
+1 : Charles Silvius, CM: 0.0 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/29496)
+
+
+Community 112, total members of the community: 2, Period: (1669, 1669), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Straten, Josua van der, CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p075560399)
+1 : Bosch, Cornelis, CM: 0.0 (URI: https://id.rijksmuseum.nl/310141529)
+
+
+Community 113, total members of the community: 2, Period: (1650, 1650), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Onuphrius Panvinius, CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p06983086X)
+1 : Lodewijk Spillebout, CM: 0.0 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/28930)
+
+
+Community 114, total members of the community: 2, Period: (1634, 1634), Number of books: 10
+Top 5 nodes according to degree centrality:
+0 : Pieter Janszoon Slijp, CM: 0.0 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/38389)
+1 : Jan Harmensz. Krul, CM: 0.0 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/23710)
+
+
+Community 115, total members of the community: 2, Period: (1672, 1672), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Wagens, Matthijs (I, wed.), CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p075564238)
+1 : H.S.P.P., CM: 0.0 (URI: https://id.rijksmuseum.nl/310188427)
+
+
+Community 116, total members of the community: 2, Period: (1699, 1699), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Mayvogel, Jacob Coenraedsz, CM: 0.0 (URI: https://id.rijksmuseum.nl/310140556)
+1 : Casparus Anthonisz. Lootsman, CM: 0.0 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/13467)
+
+
+Community 117, total members of the community: 2, Period: (1673, 1673), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Philips Jorisz van Eyck, CM: 0.0 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/39888)
+1 : Dael, Jakob van, CM: 0.0 (URI: https://id.rijksmuseum.nl/310152487)
+
+
+Community 118, total members of the community: 2, Period: (1596, 1596), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Broecke, Berend ten, CM: 0.0 (URI: https://id.rijksmuseum.nl/31015546)
+1 : Bernardus Paludanus, CM: 0.0 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/52443)
+
+
+Community 119, total members of the community: 2, Period: (1650, 1650), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Zoet, Jan, CM: 0.0 (URI: https://id.rijksmuseum.nl/310126200)
+1 : Jan Sickesz. Zoet, CM: 0.0 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/12213)
+
+
+Community 120, total members of the community: 2, Period: (1627, 1627), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Theunisz, Jan, CM: 0.0 (URI: https://id.rijksmuseum.nl/310139592)
+1 : Jan Teunisz, CM: 0.0 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/47016)
+
+
+Community 121, total members of the community: 2, Period: (1617, 1617), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Tongheren, Guil. van, CM: 0.0 (URI: https://id.rijksmuseum.nl/310114037)
+1 : Tongeren, Guilliam van, CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p311668100)
+
+
+Community 122, total members of the community: 2, Period: (1580, 1580), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Parijs, W. van, CM: 0.0 (URI: https://id.rijksmuseum.nl/31087879)
+1 : Guilliaem van Parys, CM: 0.0 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/5889)
+
+
+Community 123, total members of the community: 2, Period: (1583, 1589), Number of books: 2
+Top 5 nodes according to degree centrality:
+0 : P. T., CM: 0.0 (URI: https://id.rijksmuseum.nl/310140088)
+1 : Aelbrecht Hendricksz van Leuningen, CM: 0.0 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/17267)
+
+
+Community 124, total members of the community: 2, Period: (1641, 1641), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Zacharias Roman, CM: 0.0 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/30475)
+1 : Wenzel Hollar, CM: 0.0 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/3787)
+
+
+Community 125, total members of the community: 2, Period: (1617, 1617), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : s.n., CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p07556663X)
+1 : Schelemans, F., CM: 0.0 (URI: https://id.rijksmuseum.nl/310141011)
+
+
+Community 126, total members of the community: 2, Period: (1633, 1633), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Jan Harmensz. Muller, CM: 0.0 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/5523)
+1 : Jacob van Biesen, CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p075539071)
+
+
+Community 127, total members of the community: 2, Period: (1634, 1634), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Hermanni, J., CM: 0.0 (URI: https://id.rijksmuseum.nl/31050144)
+1 : Claude Fonteyne, CM: 0.0 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/21290)
+
+
+Community 128, total members of the community: 2, Period: (1671, 1671), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Michiel Comans II, CM: 0.0 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/1965)
+1 : Jacobus Wagenaar, CM: 0.0 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/38496)
+
+
+Community 129, total members of the community: 2, Period: (1647, 1647), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Schuylenburgh, CM: 0.0 (URI: https://id.rijksmuseum.nl/310138934)
+1 : Hendrick Danckerts, CM: 0.0 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/2347)
+
+
+Community 130, total members of the community: 2, Period: (1660, 1660), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Smits, Quirijn, CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p07557750X)
+1 : Bruyn, Hendrick de, CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p075540800)
+
+
+Community 131, total members of the community: 2, Period: (1645, 1645), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Franciscus Moyaerd, CM: 0.0 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/41124)
+1 : Adriaen Dircks Wijngaerden, CM: 0.0 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/20744)
+
+
+Community 132, total members of the community: 2, Period: (1505, 1505), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Remacle, Gilles, CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p108092240)
+1 : Kerver, Thielman, CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p10251674X)
+
+
+Community 133, total members of the community: 2, Period: (1688, 1688), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Coignard, Jean Baptiste (II), CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p168291592)
+1 : Coignard, Jean Baptiste (I), CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p07557117X)
+
+
+Community 134, total members of the community: 2, Period: (1646, 1646), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Jan Jansz Deutel (I), CM: 0.0 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/40964)
+1 : Isaac Willemsz van der Beeck, CM: 0.0 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/41041)
+
+
+Community 135, total members of the community: 2, Period: (1737, 1737), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Verheyden, Nicolaas, CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p137178514)
+1 : Jacobus Verheyde (I), CM: 0.0 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/41343)
+
+
+Community 136, total members of the community: 2, Period: (1707, 1707), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Hendrik Bruyn, CM: 0.0 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/41255)
+1 : Dirk Bruyn, CM: 0.0 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/41246)
+
+
+Community 137, total members of the community: 2, Period: (1796, 1796), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Swart en comp., CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p24556473X)
+1 : Schelle en comp., van, CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p152248870)
+
+
+Community 138, total members of the community: 2, Period: (1701, 1701), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Jean Malherbe, CM: 0.0 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/39351)
+1 : Daniel Boulesteys de la Contie, CM: 0.0 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/26710)
+
+
+Community 139, total members of the community: 2, Period: (1767, 1771), Number of books: 2
+Top 5 nodes according to degree centrality:
+0 : Waesberge, Pieter van (III), CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p138240841)
+1 : Waesberge, Gerrit van (I), CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p138240159)
+
+
+Community 140, total members of the community: 2, Period: (1754, 1754), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Vryman, Aletophilus, CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p234933887)
+1 : Batavus, Philaleethes, CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p234933925)
+
+
+Community 141, total members of the community: 2, Period: (1703, 1703), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Hendrickje Blaeuw, CM: 0.0 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/38306)
+1 : Arnoldus Curtenius, CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p075543702)
+
+
+Community 142, total members of the community: 2, Period: (1765, 1808), Number of books: 4
+Top 5 nodes according to degree centrality:
+0 : Pieter van Rees, CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p136594786)
+1 : Hendrik Sligtenhorst, CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p137055242)
+
+
+Community 143, total members of the community: 2, Period: (1768, 1768), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Mondovy, Israel, CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p13654620X)
+1 : Janson, Gerhard Johan, CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p136438180)
+
+
+Community 144, total members of the community: 2, Period: (1752, 1752), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Gulpen, Joannes van (II), CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p224209337)
+1 : Gulpen, Gijsbertus van, CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p136222048)
+
+
+Community 145, total members of the community: 2, Period: (1752, 1752), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Jacobus Stanhoffius, CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p137075154)
+1 : Andries Stanhoffius, CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p137075057)
+
+
+Community 146, total members of the community: 2, Period: (1789, 1789), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Le Duck, J. (en zoon), CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p422372137)
+1 : Corneille, Louis, CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p410740098)
+
+
+Community 147, total members of the community: 2, Period: (1530, 1530), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Hillen van Hoochstraten, Michiel, CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p101284349)
+1 : Doesborch, Jan van, CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p395951623)
+
+
+Community 148, total members of the community: 2, Period: (1573, 1573), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : s.n., CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p075566060)
+1 : Goebens, Goossen, CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p075569035)
+
+
+Community 149, total members of the community: 2, Period: (1794, 1794), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Moor, Cornelis de (II), CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p355203537)
+1 : Moor, Cornelis de (I), CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p186624425)
+
+
+Community 150, total members of the community: 2, Period: (1794, 1794), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Poelman, Bernard, CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p328664162)
+1 : Goesin, Petrus Franciscus de (III), CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p328664308)
+
+
+Community 151, total members of the community: 2, Period: (1797, 1797), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Koene, Willem, CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p134931467)
+1 : Koene, Steven, CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p13493136X)
+
+
+Community 152, total members of the community: 2, Period: (1670, 1670), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Jan Scheffer, CM: 0.0 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/25097)
+1 : Dockum, Isaac van (wed.), CM: 0.0 (URI: http://data.bibliotheken.nl/id/thes/p075544253)
+
+
+Community 153, total members of the community: 2, Period: (1674, 1674), Number of books: 1
+Top 5 nodes according to degree centrality:
+0 : Jan van Zwol, CM: 0.0 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/38439)
+1 : Cornelis Jans Zwol, CM: 0.0 (URI: http://www.vondel.humanities.uva.nl/ecartico/persons/29271)
+
+

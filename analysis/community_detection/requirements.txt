@@ -1,0 +1,10 @@
+networkx
+pandas
+matplotlib
+numpy
+rdflib
+scipy
+leidenalg
+markov-clustering
+sparqlwrapper
+./src/cdlib

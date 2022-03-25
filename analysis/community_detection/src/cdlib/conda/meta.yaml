@@ -1,0 +1,95 @@
+{% set name = "cdlib" %}
+{% set version = "0.2.5" %}
+
+package:
+  name: "{{ name|lower }}"
+  version: "{{ version }}"
+
+source:
+  url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
+
+requirements:
+  host:
+    - angel_cd
+    - bimlpa
+    - chinese_whispers
+    - demon
+    - dynetx
+    - eva_lcd
+    - karateclub
+    - leidenalg
+    - markov_clustering
+    - matplotlib
+    - networkx>=2.4
+    - nf1
+    - numpy
+    - pandas
+    - pip
+    - pooch
+    - pulp
+    - pyclustering
+    - python>=3.8
+    - python-igraph
+    - python-levenshtein
+    - python-louvain
+    - scikit-learn
+    - scipy
+    - seaborn
+    - thresholdclustering
+    - tqdm
+    - wurlitzer
+  run:
+    - angel_cd
+    - bimlpa
+    - chinese_whispers
+    - demon
+    - dynetx
+    - eva_lcd
+    - karateclub
+    - leidenalg
+    - markov_clustering
+    - matplotlib
+    - networkx>=2.4
+    - nf1
+    - numpy
+    - pandas
+    - pooch
+    - pulp
+    - pyclustering
+    - python>=3.8
+    - python-igraph
+    - python-levenshtein
+    - python-louvain
+    - scikit-learn
+    - scipy
+    - seaborn
+    - thresholdclustering
+    - tqdm
+    - wurlitzer
+
+test:
+  imports:
+    - cdlib
+    - cdlib.algorithms
+    - cdlib.algorithms.internal
+    - cdlib.algorithms.internal_dcd
+    - cdlib.classes
+    - cdlib.datasets
+    - cdlib.ensemble
+    - cdlib.evaluation
+    - cdlib.evaluation.internal
+    - cdlib.readwrite
+    - cdlib.viz
+
+about:
+  home: "https://github.com/GiulioRossetti/cdlib"
+  license: "BSD"
+  license_family: "BSD"
+  license_file: ""
+  summary: "Community Discovery Library"
+  doc_url: "https://cdlib.readthedocs.io/"
+  dev_url: "https://github.com/GiulioRossetti/cdlib"
+
+extra:
+  recipe-maintainers:
+    - GiulioRossetti
