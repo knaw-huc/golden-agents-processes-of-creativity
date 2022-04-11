@@ -55,25 +55,25 @@ WHERE {
 
     GRAPH <https://data.goldenagents.org/datasets/u692bc364e9d7fa97b3510c6c0c8f2bb9a0e5123b/processes_of_creativity_20220128> {
 
-    	?b a schema:Book ;
+        ?b a schema:Book ;
              schema:illustrator|schema:contributor|(schema:publication/schema:publishedBy) ?w1, ?w2 ;
-			 schema:publication ?publicationEvent .
+             schema:publication ?publicationEvent .
 
-		?publicationEvent a schema:PublicationEvent .
+        ?publicationEvent a schema:PublicationEvent .
 
-		OPTIONAL { ?publicationEvent sem:hasEarliestBeginTimeStamp ?bt} .
+        OPTIONAL { ?publicationEvent sem:hasEarliestBeginTimeStamp ?bt} .
 
-		OPTIONAL { ?publicationEvent sem:hasLatestEndTimeStamp ?et} .
+        OPTIONAL { ?publicationEvent sem:hasLatestEndTimeStamp ?et} .
 
-		FILTER(?w1 != ?w2)
+        FILTER(?w1 != ?w2)
         FILTER(STR(?w1) < STR(?w2))
 
-	}
+    }
   
     OPTIONAL {
         GRAPH <https://data.goldenagents.org/datasets/u692bc364e9d7fa97b3510c6c0c8f2bb9a0e5123b/ecartico_20211014> {
             ?w1 a schema:Person ;
-        	    schema:hasOccupation [ a schema:Role ;
+                schema:hasOccupation [ a schema:Role ;
                                        schema:hasOccupation ?occupation_w1 ] .
    
             ?occupation_w1 a schema:Occupation ;
@@ -86,7 +86,7 @@ WHERE {
     OPTIONAL {
         GRAPH <https://data.goldenagents.org/datasets/u692bc364e9d7fa97b3510c6c0c8f2bb9a0e5123b/ecartico_20211014> {
             ?w2 a schema:Person ;
-        	    schema:hasOccupation [ a schema:Role ;
+                schema:hasOccupation [ a schema:Role ;
                                        schema:hasOccupation ?occupation_w2 ] .
    
             ?occupation_w2 a schema:Occupation ;
