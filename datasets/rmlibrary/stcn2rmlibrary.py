@@ -36,13 +36,23 @@ import requests
 
 import pymarc
 
-from rdflib import ConjunctiveGraph, Namespace, OWL, Literal, URIRef, BNode, XSD, RDFS, RDF
+from rdflib import (
+    ConjunctiveGraph,
+    Namespace,
+    OWL,
+    Literal,
+    URIRef,
+    BNode,
+    XSD,
+    RDFS,
+    RDF,
+)
 from rdfalchemy import rdfSubject, rdfSingle, rdfMultiple
 
 bio = Namespace("http://purl.org/vocab/bio/0.1/")
-schema = Namespace('http://schema.org/')
-sem = Namespace('http://semanticweb.cs.vu.nl/2009/11/sem/')
-pnv = Namespace('https://w3id.org/pnv#')
+schema = Namespace("https://schema.org/")
+sem = Namespace("http://semanticweb.cs.vu.nl/2009/11/sem/")
+pnv = Namespace("https://w3id.org/pnv#")
 
 ##############
 # Data model #
@@ -99,8 +109,12 @@ class Book(Thing):
 
 
 class BookItem(Book):
-    rdf_type = (schema.CreativeWork, schema.Book, schema.IndividualProduct,
-                schema.ArchiveComponent)
+    rdf_type = (
+        schema.CreativeWork,
+        schema.Book,
+        schema.IndividualProduct,
+        schema.ArchiveComponent,
+    )
 
     itemLocation = rdfMultiple(schema.itemLocation)
     holdingArchive = rdfSingle(schema.holdingArchive)
@@ -201,7 +215,7 @@ def getSTCNBooks(ENDPOINT: str = "http://data.bibliotheken.nl/sparql"):
     q = """
     PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-    PREFIX schema: <http://schema.org/>
+    PREFIX schema: <https://schema.org/>
 
     SELECT DISTINCT ?book ?title WHERE {
     ?book a schema:Book ;
@@ -232,9 +246,10 @@ def getSTCNBooks(ENDPOINT: str = "http://data.bibliotheken.nl/sparql"):
 
 
 def getSTCNItem(
-        itemLocations: list,
-        holdingArchive: str = "Amsterdam, Rijksmuseum Research Library",
-        ENDPOINT: str = "http://data.bibliotheken.nl/sparql"):
+    itemLocations: list,
+    holdingArchive: str = "Amsterdam, Rijksmuseum Research Library",
+    ENDPOINT: str = "http://data.bibliotheken.nl/sparql",
+):
     """
     Find the STCN item for a given itemLocation and holdingArchive.
 
@@ -253,7 +268,7 @@ def getSTCNItem(
         q = f"""
         PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-        PREFIX schema: <http://schema.org/>
+        PREFIX schema: <https://schema.org/>
 
         SELECT * WHERE {{
         ?book a schema:IndividualProduct ;
@@ -280,9 +295,10 @@ def getSTCNItem(
 
 
 def getRMLibraryBook(
-        stcnURI: str,
-        stcnTitle: str = "",
-        ENDPOINT: str = "http://library.rijksmuseum.nl:9998/biblios"):
+    stcnURI: str,
+    stcnTitle: str = "",
+    ENDPOINT: str = "http://library.rijksmuseum.nl:9998/biblios",
+):
     """
     Get a book from the Rijksmuseum Library API. The PPN in the STCN URI is 
     used as search parameter. 
@@ -294,24 +310,26 @@ def getRMLibraryBook(
 
     """
 
-    ppn = stcnURI.replace('http://data.bibliotheken.nl/id/nbt/p', '')
+    ppn = stcnURI.replace("http://data.bibliotheken.nl/id/nbt/p", "")
 
     params = {
         "version": "1.1",
         "operation": "searchRetrieve",
         "maximumRecords": 20,
-        "query": ppn
+        "query": ppn,
     }
     r = requests.get(ENDPOINT, params=params)
 
     ElementTree.register_namespace("", "http://www.loc.gov/MARC21/slim")
     tree = ElementTree.fromstring(r.content)
 
-    for el in tree.findall(".//marc21slim:record",
-                           namespaces={
-                               "zs": "http://www.loc.gov/zing/srw/",
-                               "marc21slim": "http://www.loc.gov/MARC21/slim"
-                           }):
+    for el in tree.findall(
+        ".//marc21slim:record",
+        namespaces={
+            "zs": "http://www.loc.gov/zing/srw/",
+            "marc21slim": "http://www.loc.gov/MARC21/slim",
+        },
+    ):
 
         f = io.BytesIO(ElementTree.tostring(el, encoding="utf-8"))
         marc_records = pymarc.parse_xml_to_array(f)
@@ -321,18 +339,19 @@ def getRMLibraryBook(
             uri = record["024"]["a"]
             name = record.title()
             shelfmarks = [i["o"] for i in record.get_fields("952") if i["o"]]
-            ocolc_id = record["035"]["a"].replace('(OCoLC)', '')
+            ocolc_id = record["035"]["a"].replace("(OCoLC)", "")
 
             comments = []
-            for commentField in record.get_fields('500'):
-                comments.append(commentField['a'])
+            for commentField in record.get_fields("500"):
+                comments.append(commentField["a"])
 
             ocolc = URIRef("http://www.worldcat.org/oclc/" + ocolc_id)
 
             stcnManifestation = Book(
                 URIRef("http://data.bibliotheken.nl/id/nbt/p" + ppn),
                 name=[stcnTitle] if stcnTitle else [],
-                schemaSameAs=[ocolc])
+                schemaSameAs=[ocolc],
+            )
 
             book = BookItem(
                 URIRef(uri),
@@ -340,16 +359,15 @@ def getRMLibraryBook(
                 itemLocation=shelfmarks,
                 holdingArchive="Amsterdam, Rijksmuseum Research Library",
                 exampleOfWork=stcnManifestation,
-                description=comments)
+                description=comments,
+            )
 
             stcn_items = getSTCNItem(shelfmarks)
             if len(stcn_items) >= 1:
-                book.sameAs = [URIRef(i['book']) for i in stcn_items]
+                book.sameAs = [URIRef(i["book"]) for i in stcn_items]
 
-            authors = getPersons(record, field='100', property='author')
-            contributors = getPersons(record,
-                                      field='700',
-                                      property='contributor')
+            authors = getPersons(record, field="100", property="author")
+            contributors = getPersons(record, field="700", property="contributor")
 
             book.author = authors
             book.contributor = contributors
@@ -364,7 +382,7 @@ def getRMLibraryBook(
                     startDate = startDate[:-1]
 
                 organizationName = record["260"]["b"]
-                if organizationName and organizationName.endswith(','):
+                if organizationName and organizationName.endswith(","):
                     organizationName = [organizationName[:-1]]
                 elif organizationName:
                     organizationName = [organizationName]
@@ -372,23 +390,25 @@ def getRMLibraryBook(
                     organizationName = []
 
                 location = record["260"]["a"]
-                if location and location.endswith(','):
+                if location and location.endswith(","):
                     location = location[:-1]
 
                 pubEvent = PublicationEvent(
-                    BNode(uri + '#publication'),
+                    BNode(uri + "#publication"),
                     location=location,
                     publishedBy=[
-                        Organization(unique(
-                            uri,
-                            'organization',
-                            record["260"]["b"],
-                            ns=
-                            "https://data.goldenagents.org/datasets/rmlibrary/organization/"
-                        ),
-                                     name=organizationName)
+                        Organization(
+                            unique(
+                                uri,
+                                "organization",
+                                record["260"]["b"],
+                                ns="https://data.goldenagents.org/datasets/rmlibrary/organization/",
+                            ),
+                            name=organizationName,
+                        )
                     ],
-                    startDate=startDate)
+                    startDate=startDate,
+                )
                 book.publication = pubEvent
 
 
@@ -412,28 +432,34 @@ def getPersons(record, field, property):
 
         name = fieldEntry["a"]
 
-        if name and name.endswith(','):
+        if name and name.endswith(","):
             name = name[:-1]
 
         roleName = fieldEntry["e"]
 
-        if fieldEntry["9"] not in ('0', None):
+        if fieldEntry["9"] not in ("0", None):
             uri = URIRef("https://id.rijksmuseum.nl/310" + fieldEntry["9"])
         else:
             uri = unique(
                 recordURI,
-                'person',
+                "person",
                 name,
-                ns="https://data.goldenagents.org/datasets/rmlibrary/person/")
+                ns="https://data.goldenagents.org/datasets/rmlibrary/person/",
+            )
 
         # A nice label for the role resource
-        roleNameLiteral = [Literal(f"{name} ({roleName})", lang='nl')
-                           ] if roleName else [Literal(name, lang='nl')]
+        roleNameLiteral = (
+            [Literal(f"{name} ({roleName})", lang="nl")]
+            if roleName
+            else [Literal(name, lang="nl")]
+        )
 
         person = Person(uri, name=[name])
-        role = Role(unique(recordURI, uri, property, roleName),
-                    roleName=roleName,
-                    name=roleNameLiteral)
+        role = Role(
+            unique(recordURI, uri, property, roleName),
+            roleName=roleName,
+            name=roleNameLiteral,
+        )
 
         # Add author or contributor property
         setattr(role, property, [person])
@@ -446,8 +472,8 @@ def getPersons(record, field, property):
 if __name__ == "__main__":
 
     g = rdfSubject.db = ConjunctiveGraph()
-    g.bind('schema', schema)
-    g.bind('owl', OWL)
+    g.bind("schema", schema)
+    g.bind("owl", OWL)
 
     # Fetch books from KB endpoint
     books = getSTCNBooks()
@@ -456,9 +482,9 @@ if __name__ == "__main__":
     # Find their equivalent book in RMLibrary
     for n, book in enumerate(books, 1):
 
-        print(f"Book {n} of {len(books)}", end='\r')
-        getRMLibraryBook(book['book'], book['title'])
+        print(f"Book {n} of {len(books)}", end="\r")
+        getRMLibraryBook(book["book"], book["title"])
 
     # Serialize the graph
-    g.serialize('ga_stcn_rmlibrary.ttl', format='turtle')
+    g.serialize("ga_stcn_rmlibrary.ttl", format="turtle")
     print("Saved to ga_stcn_rmlibrary.ttl")

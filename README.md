@@ -18,7 +18,7 @@ Overarching Research Question:
     * STCN Printer Thesaurus
   * Rijksmuseum Library (https://library.rijksmuseum.nl/), that contains more information on the actors involved in the production process of a book than the STCN: illustrators as contributors. We model the part of the RMLibrary that contains links to the STCN in RDF. See: [datasets/rmlibrary](datasets/rmlibrary)
   * Rijksmuseum Collection (https://data.rijksmuseum.nl/) in Europeana Data Model. Contains pointers to the Rijksstudio and relevant depictions.
-  * ECARTICO (http://www.vondel.humanities.uva.nl/ecartico/) that holds biographical data concerning painters, engravers, printers, book sellers, gold- and silversmiths and others involved in the ‘cultural industries’ of the Low Countries in the sixteenth and seventeenth centuries.
+  * ECARTICO (https://www.vondel.humanities.uva.nl/ecartico/) that holds biographical data concerning painters, engravers, printers, book sellers, gold- and silversmiths and others involved in the ‘cultural industries’ of the Low Countries in the sixteenth and seventeenth centuries.
   * Ondertrouwregisters Amsterdam City Archives (OTR SAA, https://archief.amsterdam/uitleg/indexen/45-ondertrouwregisters-1565-1811) provide information on the social interaction between people, their (family) relation, and their connection to confession and profession.
     * Ja, ik wil! (http://www.collective-action.info/_PRO_Ja-Ik-Wil_Project)
 

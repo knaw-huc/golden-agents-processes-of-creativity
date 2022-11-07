@@ -1,4 +1,4 @@
-@prefix schema: <http://schema.org/> .
+@prefix schema: <https://schema.org/> .
 @prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
