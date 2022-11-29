@@ -37,3 +37,6 @@ For the applicability of such methods in historical research see: John F. Padget
 The data in this repository is licensed under a Creative Commons Attribution 4.0 International license (unless otherwise specified) and can be used freely, as long as you provide attribution to the Golden Agents Project (e.g. by citation).
 
 ## Contact
+l.vanwissen@uva.nl
+
+https://www.goldenagents.org/staff/
