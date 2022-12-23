@@ -30,6 +30,11 @@ We will explore the potential of methods like [blockmodelling](https://en.wikipe
 
 For the applicability of such methods in historical research see: John F. Padgett and Christopher K. Ansell, Robust Action and the Rise of the Medici, 1400-1434, *American Journal of Sociology* 98, no. 6 (1993), 1259-1319. (JSTOR: https://www.jstor.org/stable/2781822).
 
+## Analysis
+
+An analysis of the data is available in the [analysis](analysis) folder and can be viewed in a [Jupyter notebook](analysis/analysis/community_detection/dynamic_cd.ipynb). The notebook contains an exploration of the data and the application of community detection methods to the data. The notebook is part of a Master Thesis by Iman Hashemi (Utrecht University):
+* Hashemi, I. (2022). Community Detection in Historical Data Using Knowledge Graphs (Master's thesis). https://studenttheses.uu.nl/handle/20.500.12932/41641
+
 ## License
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
@@ -37,6 +42,8 @@ For the applicability of such methods in historical research see: John F. Padget
 The data in this repository is licensed under a Creative Commons Attribution 4.0 International license (unless otherwise specified) and can be used freely, as long as you provide attribution to the Golden Agents Project (e.g. by citation).
 
 ## Contact
-l.vanwissen@uva.nl
+Golden Agents project
 
 https://www.goldenagents.org/staff/
+
+l.vanwissen@uva.nl
