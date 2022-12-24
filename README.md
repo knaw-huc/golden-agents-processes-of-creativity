@@ -47,7 +47,7 @@ An analysis of the data is available in the [analysis](analysis) folder and can 
 
 ## License
 
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7478598.svg)](https://doi.org/10.5281/zenodo.7478598)
 
 The data in this repository is licensed under a Creative Commons Attribution 4.0 International license (unless otherwise specified) and can be used freely, as long as you provide attribution to the Golden Agents Project (e.g. by citation).
 
