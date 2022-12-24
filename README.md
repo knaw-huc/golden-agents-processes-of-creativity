@@ -41,6 +41,8 @@ An analysis of the data is available in the [analysis](analysis) folder and can 
 
 The data in this repository is licensed under a Creative Commons Attribution 4.0 International license (unless otherwise specified) and can be used freely, as long as you provide attribution to the Golden Agents Project (e.g. by citation).
 
+* van Wissen, L., Hashemi, I., Nijboer, H., Brouwer, J., Baas, J., Prak, M., & Leemans, I. (2022). Golden Agents - Processes of Creativity (case study) (Version v0.9) [Data set]. https://github.com/knaw-huc/golden-agents-processes-of-creativity/
+
 ## Contact
 Golden Agents project
 
