@@ -1,6 +1,16 @@
 # Golden Agents - Processes of Creativity (case study)
 Measuring innovation in book culture.
 
+- [Golden Agents - Processes of Creativity (case study)](#golden-agents---processes-of-creativity-case-study)
+  - [Introduction](#introduction)
+  - [Datasets](#datasets)
+  - [Linksets](#linksets)
+  - [Methods](#methods)
+  - [Analysis](#analysis)
+  - [License](#license)
+  - [Contact](#contact)
+
+
 ## Introduction
 We can observe a 'rise' of or 'renewed interest' in the illustrated book in the second half of 17th century and the beginning of the 18th century. New genres and techniques and an increasing competition in the book market lead to new collaborations between authors, printers, and illustrators. It would be interesting to track these producers who collaborated on illustrated book projects and trace whether these commercial collaborations were grounded or resulted in social and/or religious interactions. For this, we are bringing together several datasets in the Golden Agents infrastructure that each contain information on the production of books, or on social relations between actors involved in the production process. 
 
